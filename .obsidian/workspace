@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "5410c4e3828442b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "449076cceecfcf2f",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7da7b36ffdfb5d38",
+    "type": "split",
+    "children": [
+      {
+        "id": "5141b4c230a01f61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae29220291e2b5c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a47a1aa54da4e13",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b46857b0d428a059",
+    "type": "split",
+    "children": [
+      {
+        "id": "74362705afa6df9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0eec0763465c2423",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "449076cceecfcf2f",
+  "lastOpenFiles": [
+    "Mathematics/Relation.md",
+    "Mathematics/Partition.md",
+    "Mathematics/Metric.md",
+    "Mathematics/Function.md",
+    "Mathematics/Equivalence Class.md",
+    "Mathematics/Cauchy Sequence.md",
+    "Mathematics/Limit.md",
+    "Mathematics/Metric Space.md",
+    "Mathematics/Derivative.md",
+    "lim.md"
+  ]
+}
