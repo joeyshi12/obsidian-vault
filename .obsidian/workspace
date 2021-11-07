@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "5410c4e3828442b3",
+    "id": "170a4e810299019d",
     "type": "split",
     "children": [
       {
-        "id": "449076cceecfcf2f",
+        "id": "e173522dbc76b1e6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Computer Science/Boundary Search.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -49,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 216
   },
   "right": {
     "id": "b46857b0d428a059",
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Boundary Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "449076cceecfcf2f",
+  "active": "e173522dbc76b1e6",
   "lastOpenFiles": [
-    "Mathematics/Relation.md",
-    "Mathematics/Partition.md",
-    "Mathematics/Metric.md",
-    "Mathematics/Function.md",
+    "Computer Science/Boundary Search.md",
+    "Mathematics/Closure.md",
     "Mathematics/Equivalence Class.md",
     "Mathematics/Cauchy Sequence.md",
+    "Mathematics/Boundary.md",
+    "README.md",
+    "Mathematics/Interior.md",
+    "Mathematics/Function.md",
     "Mathematics/Limit.md",
-    "Mathematics/Metric Space.md",
-    "Mathematics/Derivative.md",
-    "lim.md"
+    "Mathematics/Relation.md"
   ]
 }
