@@ -13,21 +13,7 @@
             "mode": "source",
             "source": true
           }
-        },
-        "group": "542531cfc07dfae5"
-      },
-      {
-        "id": "af4e307aaaf7d2a8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Math/321/Rieman-Stieltjes Integral.md",
-            "mode": "preview",
-            "source": true
-          }
-        },
-        "group": "542531cfc07dfae5"
+        }
       }
     ],
     "direction": "vertical"
@@ -120,14 +106,14 @@
   "active": "d2ac06844b633835",
   "lastOpenFiles": [
     "Math/321/Rieman-Stieltjes Integral.md",
+    "README.md",
+    "Jan 10 - Jan 21.md",
     "Math/321/Riemann Integral.md",
     "Math/Cauchy Sequence.md",
     "Math/Equivalence Class.md",
     "Math/Metric Space.md",
-    "Jan 10 - Jan 21.md",
     "Math/Partition.md",
     "Math/Metric.md",
-    "Math/Limit.md",
-    "Math/Function.md"
+    "Math/Limit.md"
   ]
 }
