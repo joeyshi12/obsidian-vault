@@ -5,24 +5,45 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Computer Science\"",
+      "query": "path:CPSC/313",
       "color": {
         "a": 1,
-        "rgb": 3996543
+        "rgb": 4831282
       }
     },
     {
-      "query": "path:Mathematics",
+      "query": "path:CPSC/314",
       "color": {
         "a": 1,
-        "rgb": 5418469
+        "rgb": 13727466
+      }
+    },
+    {
+      "query": "path:MATH/321",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:MATH/301",
+      "color": {
+        "a": 1,
+        "rgb": 3899322
+      }
+    },
+    {
+      "query": "path:MATH",
+      "color": {
+        "a": 1,
+        "rgb": 86680
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -33,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1,
-  "close": false
+  "close": true
 }

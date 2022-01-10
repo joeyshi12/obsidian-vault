@@ -4,16 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "d2ac06844b633835",
+        "id": "12e95c126a605bce",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math/321/Rieman-Stieltjes Integral.md",
+            "file": "CPSC/313/Primitive Data Types.md",
             "mode": "source",
             "source": true
           }
-        }
+        },
+        "group": "daad741fab7bc8c8"
+      },
+      {
+        "id": "b390395c4da90cff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CPSC/313/Primitive Data Types.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "daad741fab7bc8c8"
       }
     ],
     "direction": "vertical"
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/321/Rieman-Stieltjes Integral.md",
+                "file": "CPSC/313/Primitive Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,19 +115,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "d2ac06844b633835",
+  "active": "12e95c126a605bce",
   "lastOpenFiles": [
-    "Math/321/Rieman-Stieltjes Integral.md",
-    "README.md",
-    "Jan 10 - Jan 21.md",
-    "Math/321/Riemann Integral.md",
-    "Math/Cauchy Sequence.md",
-    "Math/Equivalence Class.md",
-    "Math/Metric Space.md",
-    "Math/Partition.md",
-    "Math/Metric.md",
-    "Math/Limit.md"
+    "CPSC/313/Primitive Data Types.md",
+    "CPSC/313/Pointers.md",
+    "CPSC/313/Endianness.md",
+    "CPSC/313/C in Memory.md",
+    "CPSC/313/Bit Operations.md",
+    "CPSC/313/Memory Management.md",
+    "CPSC/Untitled.md",
+    "WRDS/Untitled.md",
+    "CPSC/314/Computer Graphics.md",
+    "CPSC/314/Computer Graphics.png"
   ]
 }

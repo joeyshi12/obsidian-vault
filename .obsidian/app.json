@@ -11,5 +11,7 @@
   "vimMode": false,
   "promptDelete": false,
   "defaultViewMode": "source",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "autoPairMarkdown": false,
+  "spellcheck": true
 }
