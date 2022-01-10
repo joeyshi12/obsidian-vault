@@ -1,2 +1,2 @@
 # knowledge-base
-A collection of conceptual notes
+A backup collection of notes taken in Obsidian
