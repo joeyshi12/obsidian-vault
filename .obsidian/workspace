@@ -4,15 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "e173522dbc76b1e6",
+        "id": "d2ac06844b633835",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Science/Boundary Search.md",
-            "mode": "preview"
+            "file": "Math/321/Rieman-Stieltjes Integral.md",
+            "mode": "source",
+            "source": true
           }
-        }
+        },
+        "group": "542531cfc07dfae5"
+      },
+      {
+        "id": "af4e307aaaf7d2a8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Math/321/Rieman-Stieltjes Integral.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "542531cfc07dfae5"
       }
     ],
     "direction": "vertical"
@@ -52,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216
+    "width": 285
   },
   "right": {
     "id": "b46857b0d428a059",
@@ -68,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Boundary Search.md",
+                "file": "Math/321/Rieman-Stieltjes Integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,25 +93,41 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "6d154aaa13f4ef74",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5c7df17991de7dba",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "e173522dbc76b1e6",
+  "active": "d2ac06844b633835",
   "lastOpenFiles": [
-    "Computer Science/Boundary Search.md",
-    "Mathematics/Closure.md",
-    "Mathematics/Equivalence Class.md",
-    "Mathematics/Cauchy Sequence.md",
-    "Mathematics/Boundary.md",
-    "README.md",
-    "Mathematics/Interior.md",
-    "Mathematics/Function.md",
-    "Mathematics/Limit.md",
-    "Mathematics/Relation.md"
+    "Math/321/Rieman-Stieltjes Integral.md",
+    "Math/321/Riemann Integral.md",
+    "Math/Cauchy Sequence.md",
+    "Math/Equivalence Class.md",
+    "Math/Metric Space.md",
+    "Jan 10 - Jan 21.md",
+    "Math/Partition.md",
+    "Math/Metric.md",
+    "Math/Limit.md",
+    "Math/Function.md"
   ]
 }
