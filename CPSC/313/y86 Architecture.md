@@ -4,7 +4,7 @@
 - y86 registers are 64-bit
 
 ## Condition codes
-- A collection of bits set by arithmetic and logical instructions
+- A collection of bits set by arithmetic and logical instructions used for [[y86 Control Flow ]]
 - Zero-flag: The last ALU operation produced a 0
 - Sign-flag: The last ALU operation produced a negative number
 - Overflow-flag: The last ALU operation produced an overflow

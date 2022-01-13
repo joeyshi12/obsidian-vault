@@ -25,14 +25,17 @@ char* p = NULL;
 
 { // local scope
 	char c;
-	p = &c; // c does not exist anymore outside the parentheses
+	p = &c;
 }
+
+// c does not exist anymore outside the parentheses
+*p = 'a'; // SEG FAULT!
 ```
 
 ## Memory Leak
-When you allocate memory on the heap, but do not deallocate it.
+When you allocate memory on the heap, but do not deallocate it = wasted memory.
 ```C
-int* ptr = (int*) malloc(sizeof(int))
+int* ptr = (int*) malloc(sizeof(int)) // allocate memory on heap
 *ptr = 10;
 return 0; // return without free'ing ptr; should call free(ptr) before returning
 ```

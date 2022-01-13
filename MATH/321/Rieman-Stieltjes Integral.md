@@ -21,5 +21,11 @@ We say $f$ is **Riemann-Stieltjes Integrable** with respect to $\alpha$ on $[a, 
 
 The case of $\alpha(x) = x$ is the [[Riemann Integral]]
 
+## Theorem 6.5
+$$\underline{\int_{a}^{b}} f(x) dx \leq \overline{\int_{a}^{b}} f(x) dx$$
 
+## Theorem 6.6
+$$f\in\mathcal{R}_{\alpha}[a, b] \iff \forall \epsilon > 0,\, \exists P_{\epsilon},\, s.t.\, U(P_{\epsilon}) - L(P_{\epsilon}) < \epsilon$$
 
+## Note
+$$\overline{\int_{a}^{b}} f(dx) dx - \underline{\int_{a}^{b}} f(x) dx \leq U(P) - L(P)$$

@@ -8,7 +8,7 @@ For this course, we use data types for 32-bit CPU
 
 ## Other data type sizes (implementation dependent)
 - pointer = usually 4 or 8 bytes
-- function = is essentially a pointer = 4 or 8 bytes
+- function = pointer = 4 or 8 bytes
 
 ## Signed vs unsigned
 - Signed

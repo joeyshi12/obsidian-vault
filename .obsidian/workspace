@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c3d9251c91fd729c",
+        "id": "542865a974d0ac17",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CPSC/313/Bit Operations.md",
+            "file": "CPSC/313/Endianness.md",
             "mode": "source",
             "source": true
           }
-        },
-        "group": "5cdfcda26a86e148"
-      },
-      {
-        "id": "1eda47362a433b07",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CPSC/313/Bit Operations.md",
-            "mode": "preview",
-            "source": true
-          }
-        },
-        "group": "5cdfcda26a86e148"
+        }
       }
     ],
     "direction": "vertical"
@@ -83,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC/313/Bit Operations.md",
+                "file": "CPSC/313/Endianness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,26 +95,34 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "8082808740a115c2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "c3d9251c91fd729c",
+  "active": "542865a974d0ac17",
   "lastOpenFiles": [
-    "CPSC/313/Bit Operations.md",
-    "CPSC/313/C in Memory.md",
     "CPSC/313/Endianness.md",
-    "CPSC/313/Pointers.md",
-    "CPSC/313/Primitive Data Types.md",
-    "CPSC/313/y86 Architecture.md",
+    "WRDS/Your Dataset.md",
+    "MATH/321/Rieman-Stieltjes Integral.md",
+    "MATH/321/Riemann Integral.md",
+    "MATH/321/Theorem 6.6.md",
+    "MATH/321/Refinement.md",
+    "CPSC/313/y86 Move Instructions.md",
     "CPSC/313/y86 Instructions.md",
-    "Pasted image 20220110201345.png",
-    "WRDS/Week 1.md",
-    "CPSC/313/C Arrays.md"
+    "CPSC/313/y86 Architecture.md",
+    "CPSC/313/y86 Control Flow.md"
   ]
 }
