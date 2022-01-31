@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CPSC/313/Endianness.md",
+            "file": "CPSC/313/Forwarding.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC/313/Endianness.md",
+                "file": "CPSC/313/Forwarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -114,15 +114,15 @@
   },
   "active": "542865a974d0ac17",
   "lastOpenFiles": [
+    "CPSC/313/Forwarding.md",
+    "CPSC/313/C in Memory.md",
+    "CPSC/313/ALU Instructions.md",
+    "CPSC/313/Bit Operations.md",
     "CPSC/313/Endianness.md",
-    "WRDS/Your Dataset.md",
-    "MATH/321/Rieman-Stieltjes Integral.md",
-    "MATH/321/Riemann Integral.md",
-    "MATH/321/Theorem 6.6.md",
-    "MATH/321/Refinement.md",
-    "CPSC/313/y86 Move Instructions.md",
-    "CPSC/313/y86 Instructions.md",
-    "CPSC/313/y86 Architecture.md",
-    "CPSC/313/y86 Control Flow.md"
+    "CPSC/313/Pipeline.md",
+    "CPSC/313/Pointers.md",
+    "CPSC/313/Primitive Data Types.md",
+    "CPSC/313/Stack Frame.md",
+    "CPSC/313/Steps in Execution.md"
   ]
 }

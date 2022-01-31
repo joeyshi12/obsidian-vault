@@ -1,4 +1,4 @@
 #  Instructions
 - [[y86 Move Instructions]]
-- [[ALU Operations]]
+- [[ALU Instructions]]
 - [[y86 Control Flow]]

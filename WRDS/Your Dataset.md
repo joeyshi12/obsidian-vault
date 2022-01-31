@@ -3,7 +3,21 @@
 - At least 30 data points / rows
 - Statistics for provinces / territories will be problematic since there are less than <30 provinces, but for each state in US, data for each country ...
 
-## Yugioh card infos
+## Unemployment + GDP + Covid-19 cases
+- Where did the data come from?
+- Dataset name + link
+	- https://data.oecd.org/unemp/unemployment-rate.htm (monthly unemployment rate for each country)
+	- [https://covid19.who.int/WHO-COVID-19-global-data.csv](https://covid19.who.int/WHO-COVID-19-global-data.csv) (daily cases of covid for each country)
+	- https://data.oecd.org/gdp/real-gdp-forecast.htm#indicator-chart
+- What knowledge can be produced?
+	- Correlate number of covid-19 cases to unemployment rate
+- Relevant variables / Nature of variables
+	- Location: qualitative
+	- Number of covid cases by country and time
+	- Unemployment rate by country and time
+
+
+## Yugioh card infos (not using)
 ```
 {
 	"id": 34541863,

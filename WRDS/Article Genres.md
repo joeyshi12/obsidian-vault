@@ -1,0 +1,21 @@
+- Systematic Reviews
+	- Tells exactly how they did the search
+	- Has specific research question
+	- More transparent
+	- Include methods
+	- Follows consistent structure
+- Generic Review
+	- Don't tell how to find their articles
+- Empirical studies
+	- Go on site to collect data
+- Replication studies
+	- Another guy conducts same study with same research question with same methodology
+
+## Reading strategies
+- Order of reading
+	- Abstract: summary of objectives, methodology, results
+	- Conclusion: brief recap of results
+	- Discussion: recap of results
+	- Methodology
+	- Results
+	- Introduction (has citations)

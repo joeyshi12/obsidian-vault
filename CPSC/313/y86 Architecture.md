@@ -6,7 +6,7 @@
 ## Condition codes
 - A collection of bits set by arithmetic and logical instructions used for [[y86 Control Flow ]]
 - Zero-flag: The last ALU operation produced a 0
-- Sign-flag: The last ALU operation produced a negative number
+- Sign-flag: The last ALU operation produced a negative number (produced a number with 1 in the high order bit)
 - Overflow-flag: The last ALU operation produced an overflow
 
 ##  Status Register

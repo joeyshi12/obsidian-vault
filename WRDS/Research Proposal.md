@@ -1,0 +1,14 @@
+# Structure
+- Instruction
+	- General Intruction (no heading)
+		- How not to start
+			- Story
+			- According to dictionary...
+			- Nowadays...
+	- State of knowledge
+		- What has been done?
+		- What has been found?
+	- Research gap
+	- Research question
+- Methodology (require heading in final paper)
+	- See methodology video

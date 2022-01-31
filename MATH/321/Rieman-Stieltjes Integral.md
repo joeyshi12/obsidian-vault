@@ -26,6 +26,3 @@ $$\underline{\int_{a}^{b}} f(x) dx \leq \overline{\int_{a}^{b}} f(x) dx$$
 
 ## Theorem 6.6
 $$f\in\mathcal{R}_{\alpha}[a, b] \iff \forall \epsilon > 0,\, \exists P_{\epsilon},\, s.t.\, U(P_{\epsilon}) - L(P_{\epsilon}) < \epsilon$$
-
-## Note
-$$\overline{\int_{a}^{b}} f(dx) dx - \underline{\int_{a}^{b}} f(x) dx \leq U(P) - L(P)$$

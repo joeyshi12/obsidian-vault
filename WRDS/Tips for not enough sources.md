@@ -1,0 +1,3 @@
+- Try different key words when searching
+- Change knowledge produced
+- Look for different data set

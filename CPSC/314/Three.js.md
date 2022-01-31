@@ -1,0 +1,6 @@
+- Built-in uniforms and attibutes
+	- See https://threejs.org/docs/#api/renderers/webgl/WebGLProgram
+- Some vertex attibutes
+	- position, normal, and uv
+- Some uniforms
+	- modelView matrix and cameraPosition
