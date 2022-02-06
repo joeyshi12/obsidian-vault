@@ -17,5 +17,6 @@
   "showLineNumber": false,
   "foldHeading": false,
   "rightToLeft": false,
-  "useTab": false
+  "useTab": false,
+  "attachmentFolderPath": "attachments"
 }

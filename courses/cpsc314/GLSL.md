@@ -4,8 +4,8 @@
 - Used for both vertex shaders and fragment shaders with small differences
 
 ## Key Concepts
-- Uniform type qualifier
-	- Same for all vertices
+- Uniform type qualifies
+    - Same for all vertices
 - "in", "out" (WebGL 2) or "varying" (WebGL 1) type qualifiers configure data flow in pipeline
 - "in" type qualifiers
 	- Input from previous shader stage
