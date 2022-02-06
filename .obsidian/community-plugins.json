@@ -3,5 +3,7 @@
   "table-editor-obsidian",
   "calendar",
   "obsidian-kanban",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-outliner",
+  "cm-editor-syntax-highlight-obsidian"
 ]

@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "01c04c27b0376e2b",
+        "id": "424964b420729205",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "CPSC/313/Hazards.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CPSC/313/Hazards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "01c04c27b0376e2b",
+  "active": "424964b420729205",
   "lastOpenFiles": [
-    "CPSC/313/Endianness.md",
-    "CPSC/313/Forwarding.md",
-    "CPSC/313/Pointers.md",
-    "CPSC/314/Geometry - Points, Vectors, Coordinates.md",
-    "CPSC/314/GLSL.md",
-    "CPSC/314/OpenGL.md",
+    "CPSC/313/Hazards.md",
+    "CPSC/313/Cycle Counting.md",
+    "CPSC/313/Y86_instruction_set_cheat_sheet.pdf",
+    "CPSC/313/y86 Implementation.md",
+    "CPSC/313/Y86 Stack.md",
     "CPSC/313/Pipeline.md",
-    "Pasted image 20220126141840.png",
-    "images/Pasted image 20220125163645.png",
-    "images/Pasted image 20220125170729.png"
+    "CPSC/313/y86 Control Flow.md",
+    "CPSC/313/Forwarding.md",
+    "CPSC/313/y86 Function Parameters.md",
+    "CPSC/313/Scratch.md"
   ]
 }

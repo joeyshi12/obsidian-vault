@@ -25,6 +25,6 @@
 - Each stage takes 200ps, each registers adds 20ps
 - Unpipelined implementation: 1020ps for 1 instruction
 - Pipelined implementation: 1100ps for 1 instruction
-- Throughput for pipeline: 1000
+- Throughput = 1000 / (retirement rate for one instruction in ps)
 
 [[Pasted image 20220126141840.png]]

@@ -8,6 +8,7 @@
 - Dataset name + link
 	- https://data.oecd.org/unemp/unemployment-rate.htm (monthly unemployment rate for each country)
 	- [https://covid19.who.int/WHO-COVID-19-global-data.csv](https://covid19.who.int/WHO-COVID-19-global-data.csv) (daily cases of covid for each country)
+	- https://data.oecd.org/popregion/national-population-distribution.htm (population per country)
 	- https://data.oecd.org/gdp/real-gdp-forecast.htm#indicator-chart
 - What knowledge can be produced?
 	- Correlate number of covid-19 cases to unemployment rate
