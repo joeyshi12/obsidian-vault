@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "542865a974d0ac17",
+        "id": "01c04c27b0376e2b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CPSC/313/Forwarding.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC/313/Forwarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "542865a974d0ac17",
+  "active": "01c04c27b0376e2b",
   "lastOpenFiles": [
-    "CPSC/313/Forwarding.md",
-    "CPSC/313/C in Memory.md",
-    "CPSC/313/ALU Instructions.md",
-    "CPSC/313/Bit Operations.md",
     "CPSC/313/Endianness.md",
-    "CPSC/313/Pipeline.md",
+    "CPSC/313/Forwarding.md",
     "CPSC/313/Pointers.md",
-    "CPSC/313/Primitive Data Types.md",
-    "CPSC/313/Stack Frame.md",
-    "CPSC/313/Steps in Execution.md"
+    "CPSC/314/Geometry - Points, Vectors, Coordinates.md",
+    "CPSC/314/GLSL.md",
+    "CPSC/314/OpenGL.md",
+    "CPSC/313/Pipeline.md",
+    "Pasted image 20220126141840.png",
+    "images/Pasted image 20220125163645.png",
+    "images/Pasted image 20220125170729.png"
   ]
 }

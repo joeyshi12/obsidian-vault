@@ -4,11 +4,25 @@
 - Basis: linearly independent set of vectors that can generate all vectors in the space
 
 ## Coordinates in a basis $\vec{b}$
-- Can write $\vec{v} = v_0\vec{b_0} + v_1\vec{b_1}$ for any vector $v$ in the space
-	- Can be shortened to $$\vec{v} = (\vec{b_0}, \vec{v_1})\binom{v_0}{v_1} = \underline{\vec{b}}\overline{v}$$
-- $v_0$, $v_1$ scalars can be in array, in column matrix $$\vec{v} \to_{\vec{b}} \binom{v_0}{v_1} = \overline{v}$$
-- We denote a row of items $\underline{a} = (a_0, a_1)$
-j
+For any vector $\vec{v}$ in the space, we can write $\vec{v} = v_0\vec{b_0} + v_1\vec{b_1}$
+This can be shortened to
+$$
+\vec{v}
+
+= \left(\begin{array}{cc}
+\vec{b_0} & \vec{b_1}
+\end{array}\right)
+
+\left(\begin{array}{c}
+v_0 \\
+v_1
+\end{array}\right)
+
+= \underline{\vec{b}}\overline{v}
+$$
+$v_0$, $v_1$ scalars can be in array, in column matrix $$\vec{v} \to_{\vec{b}} \binom{v_0}{v_1} = \overline{v}$$
+We denote a row of items $\underline{a} = (a_0, a_1)$
+
 ##  Representing points
 - We extend addition to include adding a point and a vector
 - We call $(\vec{b_1}, \vec{b_2}, \vec{b_3}, \tilde{b_0})$ the coodinate frame, where $(\vec{b_1}, \vec{b_2}, \vec{b_3})$ is a basis and $\tilde{b_0}$ is the origin point
