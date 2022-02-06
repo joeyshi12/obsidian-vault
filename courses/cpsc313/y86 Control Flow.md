@@ -1,5 +1,6 @@
 ## Jump Instructions
-![[Jump Instructions.png]]
+
+![[Jump Instructions.png|600]]
 
 | Instruction | Op-Code | Condition |   Check   |
 |:-----------:|:-------:|:---------:|:---------:|

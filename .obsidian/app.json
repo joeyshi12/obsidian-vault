@@ -7,13 +7,15 @@
     "downscalePercent": 100
   },
   "legacyEditor": false,
-  "livePreview": true,
-  "vimMode": false,
+  "livePreview": false,
+  "vimMode": true,
   "promptDelete": false,
   "defaultViewMode": "source",
   "readableLineLength": false,
   "autoPairMarkdown": false,
   "spellcheck": true,
   "showLineNumber": false,
-  "foldHeading": false
+  "foldHeading": false,
+  "rightToLeft": false,
+  "useTab": false
 }
