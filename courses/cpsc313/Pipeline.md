@@ -7,14 +7,12 @@
 	- If some phases take longer than others, short phases will wait on longer phases
 	- Sometimes you didn't have the right information at the right time
 
-[[Pasted image 20220125163645.png]]
+![[Pasted image 20220125163645.png|700]]
 
-## Pipeline Registers
-- Holds onto state at each stage
+| pipeline implementation              | pipeline implementation with annotation | 
+| ------------------------------------ | --------------------------------------- |
+| ![[Pasted image 20220125170729.png]] | ![[Pasted image 20220125171026.png]]    |
 
-[[Pasted image 20220125170729.png]]
-
-[[Pasted image 20220125171026.png]]
 
 ## Terminology
 - Stage / Phase
@@ -27,4 +25,4 @@
 - Pipelined implementation: 1100ps for 1 instruction
 - Throughput = 1000 / (retirement rate for one instruction in ps)
 
-[[Pasted image 20220126141840.png]]
+![[Pasted image 20220126141840.png]]
