@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "424964b420729205",
+        "id": "04df38353e6a766a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CPSC/313/Hazards.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC/313/Hazards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +107,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "424964b420729205",
+  "active": "04df38353e6a766a",
   "lastOpenFiles": [
     "CPSC/313/Hazards.md",
     "CPSC/313/Cycle Counting.md",
