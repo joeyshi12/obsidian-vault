@@ -13,5 +13,7 @@
   "defaultViewMode": "source",
   "readableLineLength": false,
   "autoPairMarkdown": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "showLineNumber": false,
+  "foldHeading": false
 }
