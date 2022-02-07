@@ -1,5 +1,5 @@
 # DIKW model
-- Data
+- Data = raw data
 - Information = passive context of the data
 - Knowledge = data analysis to get more context (correlation / inequality / etc...)
 - Wisdom = produce an insight

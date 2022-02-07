@@ -1,9 +1,9 @@
-# Reliable and Academic
-- Authored Books
+## Reliable and academic
+- **Authored Books**
 	- UBC library / public libraries (textbooks not recommended)
-- Edited Books
+- **Edited Books**
 	- UBC library / public libraries
-- Journal Articles
+- **Journal Articles**
 	- Check if they are "Peer-Reviewed" or "Referred" on their website or
 	- Reputable publishers
 		- Routledge (Taylor & Francis)
@@ -16,15 +16,20 @@
 		- APA
 		- IEEExplore
 
-# Reliable, not academic
+
+## Reliable, but not academic
 - OFFICIAL Statistics from Government
 - MAJOR Inter-Governmental Organizations
 - World Health Organization / United Nations / World Trade Organization / World Bank / OECD
+
 
 ## Unreliable
 - Published news
 - Articles referencing published research
 - Preprint / Non-peer reviewed
 
-## Structure
-![[Pasted image 20220127121726.png]]
+
+## Not Enough Sources?
+- Try different key words when searching
+- Change knowledge produced
+- Look for different data set

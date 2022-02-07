@@ -6,43 +6,7 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:CPSC/313",
-      "color": {
-        "a": 1,
-        "rgb": 4831282
-      }
-    },
-    {
-      "query": "path:CPSC/314",
-      "color": {
-        "a": 1,
-        "rgb": 13727466
-      }
-    },
-    {
-      "query": "path:MATH/321",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "path:MATH/301",
-      "color": {
-        "a": 1,
-        "rgb": 3899322
-      }
-    },
-    {
-      "query": "path:MATH",
-      "color": {
-        "a": 1,
-        "rgb": 86680
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -53,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9999999999999959,
+  "scale": 0.6989606412938206,
   "close": true
 }

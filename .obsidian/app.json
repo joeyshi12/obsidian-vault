@@ -9,7 +9,7 @@
   "legacyEditor": false,
   "livePreview": false,
   "vimMode": true,
-  "promptDelete": false,
+  "promptDelete": true,
   "defaultViewMode": "source",
   "readableLineLength": false,
   "autoPairMarkdown": false,
@@ -18,5 +18,6 @@
   "foldHeading": false,
   "rightToLeft": false,
   "useTab": false,
-  "attachmentFolderPath": "attachments"
+  "attachmentFolderPath": "attachments",
+  "autoPairBrackets": false
 }
