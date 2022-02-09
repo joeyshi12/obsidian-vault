@@ -1,15 +1,14 @@
 ## Function Parameters
 - Function parameters are passed in registers in the order of: `rdi, rsi, rdx, rcx, r8, r9`
-	- Additional arguments are pushed onto the stack **in reverse order** (e.g. arg 7 gets pushed after arg 8)
+	- Additional arguments are pushed onto the stack in reverse order (e.g. push arg 8 then arg 7, etc...)
 	- If a param is too big for a register, then pass onto the stack
 
 ## Register Usage
 - Caller saved registers
 	- Callee is allowed to scribble over these, so caller must save the contents if they want to use the values
-	- These are all argument and return registers including `r10, r11`
-		- `rdi, rsi, rdx, rcx, r8, r9, r10, r11`
+    - `rdi, rsi, rdx, rcx, r8, r9, r10, r11`
 - Callee saved registers
-	- Callee uses them, callee must restore the original values before returning
+	- Callee must restore the original values before returning
 	- `rbx, rbp, r12, r13, r14`
 
 ## Example

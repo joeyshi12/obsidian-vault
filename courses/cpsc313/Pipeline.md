@@ -9,9 +9,9 @@
 
 ![[Pasted image 20220125163645.png|700]]
 
-| pipeline implementation              | pipeline implementation with annotation | 
-| ------------------------------------ | --------------------------------------- |
-| ![[Pasted image 20220125170729.png]] | ![[Pasted image 20220125171026.png]]    |
+![[Pasted image 20220125170729.png]]
+
+![[y86 Implementation Diagram.png]]
 
 
 ## Terminology

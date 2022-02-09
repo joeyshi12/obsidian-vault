@@ -20,7 +20,11 @@ v_1
 
 = \underline{\vec{b}}\overline{v}
 $$
-$v_0$, $v_1$ scalars can be in array, in column matrix $$\vec{v} \to_{\vec{b}} \binom{v_0}{v_1} = \overline{v}$$
+
+$v_0$, $v_1$ scalars can be in array, in column matrix 
+$$
+\vec{v} \to_{\vec{b}} \left(\begin{array}{c} v_0 \\ v_1 \end{array}\right) = \overline{v}
+$$
 We denote a row of items $\underline{a} = (a_0, a_1)$
 
 ##  Representing points
@@ -30,7 +34,7 @@ We denote a row of items $\underline{a} = (a_0, a_1)$
 - We call $(v_1, v_2, v_3, 0)^T$ homogeneous coordinates of a vector
 - $\tilde{p} = \underline{\tilde{b}} \overline{p}$
 
-![[Pasted image 20220119102202.png]]
+![[Pasted image 20220119102202.png|700]]
 
 ## Important coordinate frames in graphics
 - World coordinate frame $\underline{\vec{w}} = (\vec{w_1}, \vec{w_2}, \vec{w_3}, \tilde{w_0})$
