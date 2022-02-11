@@ -5,6 +5,7 @@
     - Found a strong positive correlation between covid cases and unemployment in France, Germany, Spain, and the UK
     - Found covid causes unemployment in Germany, Italy, and the UK
     - Found covid deaths cause unemployment in Italy and UK
+    - In Z-
 
 - Study B: https://journals.sagepub.com/doi/full/10.1177/0972063420935541
     - Review article (Generic)
@@ -14,7 +15,6 @@
     - Review article (Generic)
     - Attempts to explain increases in unemployment to when government measures against covid are made
 > COVID-19 has forced governments to self-inflict economic pain to slow down the rate of infection and save lives
-> 
 
 - Study D: https://journals.sagepub.com/doi/full/10.1177/0022167820934229
 	- Review article (Generic)

@@ -16,7 +16,7 @@ Cnd = Cond(CC, ifun)
 NULL
 
 // Writeback
-R[dstE] = Cnd ? R[rB] = valE : NULL
+if (Cnd) R[dstE] = valE
 
 // PC Update
 PC = valP
