@@ -20,5 +20,7 @@
 	- Review article (Generic)
 > During this COVID-19 crisis, massive unemployment has become the defining feature of work, with millions of individuals and families now cast into a world of uncertainty and precariousness
 
+## Unemployment vs. Psychological Distress
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7579061/
 
 **Study D, E not included in state of knowledge. They are included for the "Two Additional relevant sources in the criteria"**

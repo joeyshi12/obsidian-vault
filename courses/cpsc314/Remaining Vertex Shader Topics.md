@@ -1,6 +1,6 @@
 ---
 course: "cpsc314"
-title: "Some Remaining Vertex Shader Topics"
+topic: "Some Remaining Vertex Shader Topics"
 lecture: 14
 ---
 
