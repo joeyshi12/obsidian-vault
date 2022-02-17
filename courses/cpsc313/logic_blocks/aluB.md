@@ -1,5 +1,5 @@
 ```C
-uint64_t aluB(y86_icode_t icode, uint64_t valB){
+uint64_t aluB(y86_icode_t icode, uint64_t valB) {
     switch (icode) {
         case I_MRMOVQ:
         case I_RMMOVQ:
