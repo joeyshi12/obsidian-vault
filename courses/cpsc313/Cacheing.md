@@ -3,7 +3,7 @@ course: "cpsc313"
 title: "Caching (reads)"
 ---
 
-## Cache Line (block) size Tradeoffs
+## Cache Line (block) size Trade-offs
 - Large cache lines can be good:
     - If your data exhibit good spatial locality
 - Large cache lines can be bad:
@@ -16,7 +16,13 @@ title: "Caching (reads)"
 - Cache line gets smaller as you get closer to the processor (like how cache size decreases as you get to the processor)
     - Hardware cache lines are always powers of two
 - **The beginning of a cache line is a power of 2 **
-- [[Cache Bit Calculations]]
+
+## How do I decide where to place a cache line?
+- Problem: We have large set of object we want to map to a much smaller set of locations
+- Address:
+    - Offset: If $n$ is the number of bytes in a cache line, then the number of bits in the offset $log_2(n)$
+    - Index: If $N$ is the number of cache lines in the cache, then the number of bits in the index is $\log_2(N)$
+    - Tag: Holds the remaining bits in the address
 
 ## Evaluating a cache
 - Cache hit rate:
