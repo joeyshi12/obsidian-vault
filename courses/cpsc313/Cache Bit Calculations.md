@@ -1,0 +1,1 @@
+Let $n$ be the number of cache blocks. Let $ss_B$ be 

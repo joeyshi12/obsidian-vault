@@ -16,19 +16,7 @@ title: "Caching (reads)"
 - Cache line gets smaller as you get closer to the processor (like how cache size decreases as you get to the processor)
     - Hardware cache lines are always powers of two
 - **The beginning of a cache line is a power of 2 **
-
-## How do I decide where to place a cache line?
-- Problem: We have large set of object we want to map to a much smaller set of locations
-- General approach
-    - Hashing
-- Address
-    - | Tag | Index (hash) into the cache | Offset in cache line |
-- Offset
-    - The number of bits in this part are a function of the cache line size
-- Index
-    - Determined by number of lines in the cache
-    - e.g. cache holds 128 cache lines, then I need to index 128 entries (0-127); requires 7 bits
-- Tag
+- [[Cache Bit Calculations]]
 
 ## Evaluating a cache
 - Cache hit rate:
