@@ -1,7 +1,7 @@
 ## Belady's Algorithm
 - This is the best eviction algorithm
 - Always evict the item that we use farthest in the future
-    - Assume we have 2 slows in our cache
+    - Assume we have 2 slots in our cache
     - Assume fully associative
     - We access cache blocks in the following order
         - A, A, C, A, C, B, B, B, A, A, B, C
@@ -31,8 +31,3 @@ Hit rate: 8/12
 
 ## LFU: Least Frequently Used
 - Keep track of how many times each item is used and replace the one with the smallest frequency count
-
-```
-BEAD
-```
-
