@@ -24,6 +24,7 @@ title: "Caching (reads)"
     - Index: If $N$ is the number of cache lines in the cache, then the number of bits in the index is $\log_2(N)$
     - Tag: Holds the remaining bits in the address
 
+
 ## Evaluating a cache
 - Cache hit rate:
     - number of cache hits / number of cache accesses
