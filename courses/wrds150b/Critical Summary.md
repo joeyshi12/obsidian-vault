@@ -46,3 +46,12 @@ title: "Critical Summary"
     - Individual Summary (already in!)
         - Smith (2003) revealed that XXXX...
 - Examples
+
+## BONUS MARKS (0.5)
+![[Pasted image 20220307120852.png|700]]
+1. Integral Smith and Kelly, 2014; Non-integral (Smith & Johnson, 2014)
+2. Integral Smith et al. (2014) Non-integral (Smith et al., 2014). Example: Smith Johnson Kelly
+3. Various studies examined the relationship between XX and YY (Smith, 2014; Johnson, 2019; Kelly, 2020).
+4. Less
+5. "XXX" (Smith, 2013, p. 12).
+6. Incorrect. Should be World Health Organization (WHO; 2002)...

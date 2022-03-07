@@ -23,5 +23,6 @@ $$\overline{u}
 ## Steps for texture mapping
 1. Create a *texture object* and load texels into it
 2. Include *texture coordinates*  with your vertices
+    1. Texture coordinates can be computed in the shader itself (computed procedurally)
 3. Associate a *texture sampler*  with each texture map used in shader
 4. Retrieve texel value

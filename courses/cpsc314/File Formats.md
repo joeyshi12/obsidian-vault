@@ -26,3 +26,6 @@ vp 0.310000 3.210000 2.100000
     - A scene is made up of nodes, where nodes is an `Object3D`
     - A node may represent a mesh, where the mesh contains all the vertex data
     - https://www.khronos.org/files/gltf20-reference-guide.pdf
+
+## glTF Features
+- A node may also be a 'skin'. Skins contains an array of joints for defining a skeleton hierarchy
