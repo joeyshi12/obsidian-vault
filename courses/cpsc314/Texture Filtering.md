@@ -40,3 +40,20 @@ The solution is to take the average/blur (anti-aliasing)
 - Given a texel coordinate $(x, y)$ for a version of the image with scale $N\times N$, we can interpolate between the in-between scales shown in the image below
 
 ![[Pasted image 20220309104438.png|700]]
+
+**Three.js**
+- Set `Texture.minFilter` to `THREE.LinearMipMapLinearFilter`
+- Trilinear interpolation requires WebGL to fetch 8 texture pixels and blend them appropriately for every requested texture access
+
+## Sampling in 1D
+$$
+\frac{1}{L}\int I(x) \approx \frac{1}{N} \sum I[x]
+$$
+
+![[Pasted image 20220311103546.png]]
+
+## Terminology
+- Over-sampling: for every fragment picking more than one colour sample and
+- Super-sampling: run fragment shader 4 times for each higher res and then average??
+- Multi-sampling: for every fragment, sample in multiple places to find coverage
+run fragment shader once per fragment
