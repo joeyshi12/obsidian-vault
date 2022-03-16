@@ -1,2 +1,14 @@
-Require data visualization
-[[Data Visualization]]
+## Structure of Final Paper
+- Abstract
+- Introduction
+    - State of knowledge
+    - Research Gap
+    - Research Question
+- Methodology
+- Results (100-150) 
+    - [[Data Visualization]]
+- [[Discussion]] (250-400)
+    - Theme 1
+    - Theme 2
+- Conclusion
+- References
