@@ -89,11 +89,10 @@ When we call fork, we get a new descriptor table which will increment some refco
 ![[Pasted image 20220311142044.png]]
 
 ```C
-// du
-
+// 
 int dup(int fd)
 
-//
+// duplicate fd1 onto fd2
 int dup2(int fd1, int fd2)
 ```
 
