@@ -15,7 +15,7 @@ If you treat an object as a perfect mirror, you can compute the bounce vector of
 
 ![[Pasted image 20220304104623.png|500]]
 
-```
+```glsl
 uniform samplerCube uTexUnit0;
 in vec3 vNormal;
 in vec4 vPosition;
@@ -29,8 +29,8 @@ void main() {
     vec3 normal = normalize(vNormal);
     vec3 reflected = reflect(normalize(vec3(-vPosition)), normal);
     vec4 textColor0 = samplerCube(uTexUnit0, reflected);
-    fragColor = vec4(texColor0.r, textColo0.g, textColor0.b, 1.0);
+    fragColor = vec4(texColor0.r, textColor0.g, textColor0.b, 1.0);
 }
 ```
 
-![[Pasted image 20220304104917.png|500]]
+![[Pasted image 20220304104917.png|700]]

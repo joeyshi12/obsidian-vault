@@ -6,10 +6,12 @@ chapters: [14]
 ---
 
 ## Toon Shading
-- Use a small, discretized palette of colour
+Uses a small, discretized palette of colour and 'blackens' edges
+For example, the intensity $I = \vec{n} \cdot \vec{l}$ can be discretized with $ceil(I\cdot k) / k$ for some $k\in\mathbb{N}$
+To draw silhouette edges, we compute the fresnel $f = \vec{v} \cdot \vec{n}$ and blacken the fragment if
+$f < \epsilon$ for some 'reasonable' $\epsilon$
+
 ![[Drawing 2022-02-28 10.13.38.excalidraw]]
-- Draw silhouette edges
-    - Example: when  $\vec{n} \cdot \vec{v} \approx 0$ set the colour to $0$
 
 ## Blinn's change to the Phong Reflection
 ![[Drawing 2022-02-28 10.40.28.excalidraw]]

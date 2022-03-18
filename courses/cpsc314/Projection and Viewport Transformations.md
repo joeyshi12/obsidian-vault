@@ -1,7 +1,7 @@
 ---
 course: "cpsc314"
 topic: "Some Remaining Vertex Shader Topics"
-lecture: 14
+lecture: 13
 ---
 
 ![[Pasted image 20220209100947.png|700]]
@@ -34,17 +34,23 @@ $$
 
 ## Viewport
 - We think of each pixel as owning the real estate which extends 0.5 pixel units in the position and negative, horizontal and vertical directions from the pixel center.
-- *In OpenGL, integers are at the bottom left corner of a pixel*
 
 ![[Pasted image 20220209103959.png|700]]
 
 ## Viewport Matrix
-- We need a transform that maps the lower left corner to $[-0.5, -0.5]^t$ and upper right corner $[W - 0.5, H - 0.5]^t$
+After the [[Projective Transformation]] and perspective divide into NDC, the viewport matrix maps to window coordinates. 
+We need a transform that maps the lower left corner to $[-0.5, -0.5]^t$ and upper right corner $[W - 0.5, H - 0.5]^t$
 $$
-\left[\begin{array}{c}
-x_x \\ y_w \\ z_w \\ 1
-\end{array}\right]
-= \left[\begin{array}{cccc}
-W / 2 \\ 0 \\ z_w \\ 1
-\end{array}\right]
+\begin{pmatrix}
+x_w \\ y_w \\ z_w \\ 1
+\end{pmatrix}
+= \begin{pmatrix}
+W/2 & 0 & 0 & (W-1)/2 \\
+0 & H/2 & 0 & (H-1)/2 \\
+0 & 0 & 1/2 & 1/2 \\
+0 & 0 & 0 & 1
+\end{pmatrix}
+\begin{pmatrix}
+x_n \\ y_n \\ z_n \\ 1
+\end{pmatrix}
 $$

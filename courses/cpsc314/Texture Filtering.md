@@ -53,7 +53,7 @@ $$
 ![[Pasted image 20220311103546.png]]
 
 ## Terminology
+Assume 4 sampling points for each pixel
 - Over-sampling: for every fragment picking more than one colour sample and
-- Super-sampling: run fragment shader 4 times for each higher res and then average??
-- Multi-sampling: for every fragment, sample in multiple places to find coverage
-run fragment shader once per fragment
+- Super-sampling: run fragment shader on **all 4** samples and the results of these are averaged to get the final result
+- Multi-sampling: depth and stencil tests run on all 4 samples and the fragment shader is run **once** on a sample that passed the depth and stencil tests. The color value is copied to all other samples that passed the depth and stencil tests. The same operation may be applied multiple times if multiple fragments overlap for 1 pixel (such as on edges). Finally, average all samples to get final result
