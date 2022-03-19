@@ -1,0 +1,7 @@
+- Justify the need for a memory hierarchy with several levels on modern computers
+- Describe which situations caches are effective
+- Understand how a cache changes after a sequecne of memory operations
+- Apply Amdahl's law
+- Determine hit/miss rates given a series of accesses
+- Determine average access time given a workload
+- Classify each of a sequence of memory operations using a cache with a
