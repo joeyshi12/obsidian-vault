@@ -1,0 +1,7 @@
+- Summarize key points
+    - RQ
+    - Results & Discussion
+- No new points
+- End propertly (affects marks for organization)
+- Not very important: YES / NO in assessment
+- Remove parts in 'summarize key points' if nearing word limit (conclusion can be shortened to satisfy word limit)

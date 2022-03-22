@@ -1,0 +1,13 @@
+Writing purposes; help readers understand what you have done and what you have found
+- NOT an intro
+- structured / unstructured
+- Major sections
+    - RQ
+    - Methodology
+        - Data set retrieved?
+        - Sample?
+        - Data analysis?
+    - Results & discussion
+    - Significance? Contribution? (include coefficient numbers)
+- Word limit: 200
+- Good: provide sufficient details
