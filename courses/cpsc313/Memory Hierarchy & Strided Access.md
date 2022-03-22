@@ -3,6 +3,13 @@ course: "cpsc313"
 title: "Memory Hierarchy & Strided Access"
 ---
 
+## Memory Hierarchy
+Things closer to the CPU implies
+- Faster
+- Smaller Size
+- Smaller Cache Lines
+- More Expensive
+
 ```C
 Suppose the cache line is 8 bytes
 

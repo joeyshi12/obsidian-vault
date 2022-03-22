@@ -21,6 +21,3 @@ POSIX creates files by writing bytes to them; they grow dynamically
 Some files are *sparse*. i.e., files have have holes in them/spaces in between bytes
 - e.g., virtual machines may have large disk space that may never be used
 - Extent-based files typically allocate disk space for the entire file
-
-## Key insight
-q
