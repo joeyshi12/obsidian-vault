@@ -4,6 +4,8 @@ title: "Memory Hierarchy"
 chapters: [6.2, 6.3]
 ---
 
+Upper levels are smaller, more expensive, faster
+
 ![[Pasted image 20220214142057.png|600]]
 
 ## Caching
