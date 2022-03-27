@@ -24,4 +24,5 @@ the value in processor 2 would have *stale data*
     - Metadata: { M (dirty bit), S (cache line is shared), I (cache line is invalid/no valid data)  }
     - Read, write, remote read, remote write, evict can update this metadata
 
+## MSI
 ![[Pasted image 20220306212247.png|500]]

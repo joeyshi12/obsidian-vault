@@ -17,4 +17,7 @@ S: Shared
 I: Invalid
 ```
 
-![[Pasted image 20220307143729.png|700]]
+![[Pasted image 20220307143729.png|600]]
+
+## MSI
+![[Pasted image 20220306212247.png|500]]
