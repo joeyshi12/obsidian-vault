@@ -86,6 +86,13 @@ struct ext2_inode_info {
 };
 ```
 
+## File Sizes
+- inodes can hold 15 block addresses
+    - 12 data blocks
+    - 1 indirect block
+    - 1 doubly indirect block
+    - 1 triple indirect block
+
 ## Directory Entries
 ```C
 struct ext2_dir_entry {  
