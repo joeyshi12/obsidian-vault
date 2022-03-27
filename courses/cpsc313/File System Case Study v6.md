@@ -12,7 +12,7 @@ Divided into 512-byte blocks
 
 ![[Pasted image 20220321142459.png|700]]
 
-Free space Management
+## Free space Management
 - Up to 99 blocks, referenced directly in the superblock
 - 1 block as the head of a linked list of blocks containing addresses of other free blocks
 
@@ -37,6 +37,7 @@ struct filsys {
 }
 ```
 
+## On-disk inode metadata
 ```C
 struct ino {  
     int i_mode; /* File type, size, permissions */  
@@ -55,5 +56,29 @@ struct ino {
 }
 ```
 
-**Ex.**
-Suppose `nfree = 1`. 
+## In-memory inode metadata
+```C
+struct inode {
+    char i_flag;
+    char i_count; /* reference count */
+    int i_dev;  /* device where inode resides */
+    int i_number; /* i number 1:1 w/device addr */
+    int i_mode;
+    char i_nlink; /* directory entries*/
+    char i_uid;  /* owner */
+    char i_gid;  /* group of owner */
+    char i_size0; /* most significant of size */
+    char *i_size1; /* least sig */
+    int i_addr[8]; /* device addresses constituting file */
+    int i_lastr; /* last logical block read */
+}
+```
+
+## Different Sized Files
+- The `i_flag` indicates a small file if set to 0 and large file if set to 1
+- For small files, each disk address in `i_addr` will point to a direct block
+- For large files, `i_addr[0],...,i_addr[6]` will point to a indirect block and `i_addr[7]` will point to a doubly indirect block
+
+## Directory Entries
+- Entries are 16 bytes: 2 bytes for inode number and 14 bytes (right padded) of name
+- A directory entry with inode = 0 is unused

@@ -14,3 +14,7 @@
 
 **fileDescriptorTable**
 - Mapping from file descriptor to open file table entry
+
+**disk**
+- Mapping from file offset to disk block
+- Mapping from symbolic name to file metadata
