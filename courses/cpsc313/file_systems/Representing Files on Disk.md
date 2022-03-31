@@ -37,3 +37,6 @@ File: sequence of logic blocks, `LBN = floor(offset / file_system_block_size [or
 *handles sparse files poorly*
 
 ## Single-extent-based allocation
+- Variable-sized contiguous collection of disk blocks
+- One, single extent stores all of a file's data
+- The inode disk-block map stores a block number of the extent's first block and the total number of blocks in the extent

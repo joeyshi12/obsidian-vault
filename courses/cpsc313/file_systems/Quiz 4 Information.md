@@ -4,4 +4,6 @@
 - Apply Amdahl's law
 - Determine hit/miss rates given a series of accesses
 - Determine average access time given a workload
-- Classify each of a sequence of memory operations using a cache with a
+- Classify each of a sequence of memory operations using a cache as hit, compulsory miss, conflict miss, capacity miss
+- Strided access on cache performance
+- MSI, MESI

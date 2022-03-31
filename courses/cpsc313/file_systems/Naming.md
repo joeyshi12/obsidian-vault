@@ -26,7 +26,7 @@ We iterate over dirents to find inumber from pathname.
 struct dirent {  
 ino_t d_ino;  
 __uint16_t d_reclen; // total length of struct including the padding
-__uint8_t d_type;  
+__uint8_t d_type; // 4 = dir, 8 = file, 10 = link
 __uint8_t d_namlen;  
 char d_name[256];  
 };  

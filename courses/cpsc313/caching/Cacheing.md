@@ -17,6 +17,7 @@ title: "Caching (reads)"
     - Hardware cache lines are always powers of two
 - **The beginning of a cache line is a power of 2 **
 
+
 ## How do I decide where to place a cache line?
 - Problem: We have large set of object we want to map to a much smaller set of locations
 - Address:
