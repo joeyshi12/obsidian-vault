@@ -82,3 +82,10 @@ struct inode {
 ## Directory Entries
 - Entries are 16 bytes: 2 bytes for inode number and 14 bytes (right padded) of name
 - A directory entry with inode = 0 is unused
+
+```C
+struct dirent {  
+int d_ino; // 16 bits  
+char d_name[14];  
+};
+```

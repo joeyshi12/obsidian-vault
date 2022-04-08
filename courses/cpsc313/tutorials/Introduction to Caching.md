@@ -1,6 +1,7 @@
 ---
 course: "cpsc313"
-title: "Tutorial 5"
+title: "Introduction to Caching"
+tutorial: 5
 ---
 
 ## Fundamentals

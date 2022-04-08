@@ -6,13 +6,13 @@ title: "Naming"
 The problem to solve is reading the inode given a pathname
 
 ## Basic Ideas
-Directory
+**Directory
 - normal file (with directory type) containing list of entries `dirent`
 
-Directory Entry
+**Directory Entry**
 - maps a file name to its inumber
 
-Hierarchical naming
+**Hierarchical naming**
 - Directory has sub-directories
 - File uniquely named by pathname
 
