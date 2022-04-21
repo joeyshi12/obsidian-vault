@@ -17,6 +17,4 @@ S: Shared
 I: Invalid
 ```
 
-![[Pasted image 20220307143729.png|700]]
-
 ![[Pasted image 20220319223156.png]]

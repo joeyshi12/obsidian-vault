@@ -10,7 +10,7 @@
 - **Write miss**
     - **No write allocate**: write to data source
         - $\overline{t} = \alpha t_{cache} + (1 - \alpha) t_{source}$
-    - **Write allocate** (Common): read data from source into cache and then write to cache and data source
+    - **Write allocate** (Common): read data from source into cache and then write to cache and *sometimes* to the data source. (always set the dirty bit!)
         - $\overline{t} = \alpha t_{cache} + (1 - \alpha) t_{source}(\gamma + 2(1 - \gamma))$
         - hit rate = $\alpha$
         - clean rate = $\gamma$

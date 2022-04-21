@@ -47,4 +47,4 @@ Stack: [...][c][b][a][saved rbp][return address][p2][p4][...]
 32(%rbp) = &p4
 ```
 
-![[Pasted image 20220118224115.png]]
+![[Pasted image 20220118224115.png|700]]

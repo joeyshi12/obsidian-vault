@@ -1,4 +1,4 @@
-# Pipeline
+## Pipeline
 - Pros
 	- Uses hardware more efficiently by working in parallel
 	- A **collection** of instructions completes faster
@@ -9,16 +9,15 @@
 
 ![[Pasted image 20220125163645.png|700]]
 
-![[Pasted image 20220125170729.png]]
-
-![[y86 Implementation Diagram.png]]
-
 
 ## Terminology
-- Stage / Phase
-- Throughput: rate at which instructions complete (GIPS: 10^9 instructions per second)
+- **Latency**: end to end time to complete execution of a single instruction
+- **Retirement latency**: time between the completion of one instruction and the completion of the next instruction
+- **Throughput**: rate at which instructions complete (GIPS: 10^9 instructions per second)
+    - `output GIPS = 1000 / (retirement latency in ps)`
 
-## Latency
+
+## Latency Example
 - 5 registers + 5 stages for pipeline implementation
 - Each stage takes 200ps, each registers adds 20ps
 - Unpipelined implementation: 1020ps for 1 instruction

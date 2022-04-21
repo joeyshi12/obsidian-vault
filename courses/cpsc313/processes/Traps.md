@@ -8,3 +8,5 @@ title: "Traps"
 - Exception
 - Interrupt
 
+
+![[Pasted image 20220420235134.png]]

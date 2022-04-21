@@ -103,3 +103,6 @@ Minimum directory entry is 12 bytes
 ## Building a Directory
 
 ![[Pasted image 20220325144512.png]]
+
+563  564 5
+11

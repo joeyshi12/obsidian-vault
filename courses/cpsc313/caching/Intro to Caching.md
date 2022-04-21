@@ -32,4 +32,3 @@ chapters: [6.2, 6.3]
 
 ## How much data should I return?
 - Block size: the unit in which data is stored in a cache.
-- 

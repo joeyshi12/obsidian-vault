@@ -12,8 +12,17 @@ This is a shared cache
 
 ![[Pasted image 20220316141136.png|700]]
 
-Question: 4kB block, 4B block, 1GB max file size. How many blocks required for smallest file?
-Answer: 
+**Example**
+- 4kB block
+- 4B block address
+- 1GB max file size
+
+Q: How big is the index?
+A: Number of blocks = 1GB / 4kB = 2^30 / 2^12 = 2^18
+
+
+Q: How many blocks required for smallest file?
+A: There are 1GB/4kB blocks in this file system. 
 ```
 # blocks in file = 2^(30)/2^(12) = 2^(18)
 size of index = 2^(18)*2^(2) = 2^(20) = 1MB

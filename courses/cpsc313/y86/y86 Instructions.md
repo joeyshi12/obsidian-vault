@@ -1,6 +1,7 @@
 #  Instructions
 - [[y86 Move Instructions]]
-- [[y86 Control Flow]]
+- [[y86 Diagrams]]
+- [[y86 Jump Instructions]]
 - [[Y86_instruction_set_cheat_sheet.pdf]]
 
 ```

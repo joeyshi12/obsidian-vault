@@ -85,7 +85,7 @@ struct inode {
 
 ```C
 struct dirent {  
-int d_ino; // 16 bits  
+uint16_t d_ino; // 2 bytes  
 char d_name[14];  
 };
 ```
