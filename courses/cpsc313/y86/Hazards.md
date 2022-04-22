@@ -5,10 +5,21 @@
 ## Control Dependency
 - Caused by jump instructions depending on condition codes
 
-## Cycle Counting
-- Register operations that depend on other register operations = 3 instruction gap
-	- With forwarding, there is no gap
-- Memory operations need 3 instruction gap
-	- With mrmovq or rmmovq, we need 1 instruction gap with ALU / register dependency
-- Conditional jumps need 2 instruction gap even with forwarding
-	- With prediction, 2 when wrong; otherwise none 
+## Stalling
+- ALU operations: 3 stalls
+- MOV operations: 3 stalls
+- RET: 3 stalls
+- POP: 3 stalls
+- JMP: 0 stalls
+- CALL: 0 stalls
+- JXX: 2 stalls
+
+## Forwarding
+- **Implementation**
+    - Forwards e_valE into the register file
+    - Forward M_valE to the new logic
+    - Forward e_valE to the beginning of Execute
+- y86 uses **backward taken, forward not taken**
+- Worst case, we squash 2 cycles, which is the same amount wasted as forwarding (**Squash != Stall**)
+
+![[y86 Implementation Diagram.png]]
