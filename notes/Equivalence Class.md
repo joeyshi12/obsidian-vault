@@ -1,5 +1,4 @@
 # Equivalence Class
-
 A [[Relation]] $R\subseteq A^2$ is an equivalence relation if the following properties hold:
 1. $\forall x\in A,\, xRx$ (*Reflexive*)
 2. $\forall x,y\in A,\, xRy \Rightarrow yRx$ (*Symmetric*)
