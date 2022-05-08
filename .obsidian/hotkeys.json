@@ -50,5 +50,14 @@
       ],
       "key": "Enter"
     }
+  ],
+  "oz-clear-unused-images:clear-images-obsidian": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }
