@@ -101,7 +101,7 @@ def LCS(A: str, B: str) -> str:
         return ""
 
     subsequence = [""] * length
-    curr = LLCS - 1
+    curr = length - 1
     i, j = len(A) - 1, len(B) - 1
     while curr >= 0:
         if A[i] == B[j]:
