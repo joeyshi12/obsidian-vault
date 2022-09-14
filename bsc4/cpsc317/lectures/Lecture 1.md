@@ -62,7 +62,7 @@ Necessary conditions:
 
 **Goal**: Effective technique for multiplexed utilization of existing interconnected networks
 - Multiplexed = Shared
-- Security was apart of the goals initially
+- Security was not apart of the goals initially
 
 **Packet-switching**
 - Divide data into packets to send
