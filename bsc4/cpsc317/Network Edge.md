@@ -1,3 +1,0 @@
----
-topic: "The Network Edge
----

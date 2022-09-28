@@ -1,0 +1,5 @@
+
+- Packets: units of data
+- Channel: physical resource of transferring a stream of data
+- Inter-network: a collection of channels
+- 

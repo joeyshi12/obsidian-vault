@@ -1,8 +1,0 @@
-- **Communicate**
-- **Support a variety of applications**
-- **Support security, privacy, openness**
-- Connect existing networks  
-- Allow distributed management  
-- Allow resource accountability  
-- Cost effective, good performance  
-- Robust in face of failures

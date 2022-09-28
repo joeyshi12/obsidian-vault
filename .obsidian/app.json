@@ -9,7 +9,7 @@
   "legacyEditor": false,
   "livePreview": false,
   "vimMode": true,
-  "promptDelete": true,
+  "promptDelete": false,
   "defaultViewMode": "source",
   "readableLineLength": false,
   "autoPairMarkdown": false,
