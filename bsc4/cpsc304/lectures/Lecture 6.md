@@ -1,7 +1,6 @@
 ---
-course: "cpsc317"
-module: "m2"
-lecture: 9
+course: "cpsc304"
+lecture: 6
 ---
 
 ## Foreign Key Constraints

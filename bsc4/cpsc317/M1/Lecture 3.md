@@ -12,7 +12,6 @@ lecture: 3
 ## Finite State Machines
 ![[Drawing 2022-09-14 09.07.00.excalidraw]]
 
-
 ## Communicating State Machines
 ![[Pasted image 20220914091305.png|700]]
 

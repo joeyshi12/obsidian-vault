@@ -5,7 +5,7 @@
   "scriptFolderPath": "Excalidraw/Scripts",
   "compress": false,
   "autosave": true,
-  "autosaveInterval": 10000,
+  "autosaveInterval": 15000,
   "drawingFilenamePrefix": "Drawing ",
   "drawingEmbedPrefixWithFilename": true,
   "drawingFilnameEmbedPostfix": " ",
@@ -25,6 +25,9 @@
   "zoomToFitMaxLevel": 2,
   "linkPrefix": "📍",
   "urlPrefix": "🌐",
+  "parseTODO": false,
+  "todo": "☐",
+  "done": "🗹",
   "hoverPreviewWithoutCTRL": false,
   "linkOpacity": 1,
   "openInAdjacentPane": false,
@@ -62,7 +65,7 @@
     "source": "https://excalidraw.com",
     "libraryItems": []
   },
-  "imageElementNotice": false,
+  "imageElementNotice": true,
   "mdSVGwidth": 500,
   "mdSVGmaxHeight": 800,
   "mdFont": "Virgil",
@@ -71,13 +74,8 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": false,
-  "previousRelease": "1.7.19",
+  "previousRelease": "1.7.22",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
-  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",
-  "fieldSuggestor": true,
-  "loadCount": 1,
-  "patchCommentBlock": false,
-  "runWYSIWYGpatch": false,
-  "fixInfinitePreviewLoop": false
+  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js"
 }

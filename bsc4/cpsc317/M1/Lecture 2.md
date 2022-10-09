@@ -43,5 +43,6 @@ $$
     - Faster startup to first packet delivered (no reservation)  
     - More efficient use of the network when combined with statmux
 
-
+![[Lecture 2 2022-10-07 08.48.33.excalidraw]]
+![[Lecture 2 2022-10-07 08.49.20.excalidraw]]
 ## Protocol

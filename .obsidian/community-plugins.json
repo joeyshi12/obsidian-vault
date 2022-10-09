@@ -1,9 +1,10 @@
 [
   "table-editor-obsidian",
-  "calendar",
   "obsidian-outliner",
   "obsidian-collapse-all-plugin",
-  "obsidian-excalidraw-plugin",
   "oz-clear-unused-images",
-  "dataview"
+  "dataview",
+  "obsidian-minimal-settings",
+  "templater-obsidian",
+  "obsidian-excalidraw-plugin"
 ]

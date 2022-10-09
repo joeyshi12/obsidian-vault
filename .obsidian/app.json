@@ -19,5 +19,6 @@
   "rightToLeft": false,
   "useTab": false,
   "attachmentFolderPath": "attachments",
-  "autoPairBrackets": false
+  "autoPairBrackets": false,
+  "communityPluginSortOrder": "download"
 }

@@ -51,13 +51,24 @@
       "key": "Enter"
     }
   ],
-  "oz-clear-unused-images:clear-images-obsidian": [
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed": [],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-on-current": [],
+  "obsidian-excalidraw-plugin:insert-LaTeX-symbol": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
-      "key": "C"
+      "key": "4"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }
