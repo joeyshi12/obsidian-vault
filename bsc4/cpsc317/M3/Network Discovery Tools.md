@@ -1,4 +1,5 @@
 ---
+title: "Network Discovery Tools
 topics: ["Network Discovery Tools"]
 module: 3
 lecture: 9
