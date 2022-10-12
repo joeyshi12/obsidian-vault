@@ -1,8 +1,10 @@
 ---
-title: "Cyclic Redundancy Check"
-topics: ["Error Detection"]
+title: Cyclic Redundancy Check
+topic: Error Detection
+tags: Error Detection
 module: 3
 lecture: 10
+date: [[2022-10-7]]
 ---
 
 ## Polynomial Division

@@ -1,7 +1,8 @@
 ---
-title: "MAC Address"
-topics: ["MAC Address"]
+title: MAC Address
 module: 3
+tags: Link Layer
+date: [[2022-10-5]]
 ---
 
 A link-layer address is referred as a **MAC Address**.

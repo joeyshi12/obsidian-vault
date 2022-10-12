@@ -1,20 +1,20 @@
 ## M1
 ```dataview
-table topics, lecture
+table topic, lecture, date
 from "bsc4/cpsc317/M1"
-sort lecture
+sort date, lecture
 ```
 
 ## M2
 ```dataview
-table topics, lecture
+table topic, lecture, date
 from "bsc4/cpsc317/M2"
-sort lecture
+sort date, lecture
 ```
 
 ## M3
 ```dataview
-table topics, lecture
+table topic, lecture, date
 from "bsc4/cpsc317/M3"
-sort lecture
+sort date, lecture
 ```

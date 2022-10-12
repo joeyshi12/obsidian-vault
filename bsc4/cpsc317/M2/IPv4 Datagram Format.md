@@ -1,10 +1,10 @@
-- [ ] ---
+---
 module: "M2"
 topic: "IPv4 Datagram Format"
 chapter: "4.3.1"
 ---
 
-![[Pasted image 20220912075624.png]]
+![[Pasted image 20220912075624.png|600]]
 
 | Term                                        | Definition                                                                                                 |
 | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -34,4 +34,4 @@ chapter: "4.3.1"
     - Typically 20 bytes
 - Where does the packet end?
     - Length field is the entire size of the datagram in bytes = 16 bits
-- https://www.rfc-editor.org/rfc/rfc3514
+- https://www.rfc-editor.org/rfc/rfc351

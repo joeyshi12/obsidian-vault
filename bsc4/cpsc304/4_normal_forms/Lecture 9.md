@@ -1,5 +1,6 @@
 ---
 course: "cpsc304"
+topics: ["Normal Forms"]
 lecture: 9
 ---
 

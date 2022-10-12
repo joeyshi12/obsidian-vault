@@ -1,7 +1,8 @@
 ---
-course: "cpsc317"
-topic: "As Organization"
-module: "m2"
+course: cpsc317
+topic: AS Organization
+tags: Path Vectors, Aggregation, BGP Internals
+module: 2
 lecture: 8
 ---
 

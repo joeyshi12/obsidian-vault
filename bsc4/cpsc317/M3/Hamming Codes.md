@@ -1,8 +1,10 @@
 ---
-title: "Hamming Codes"
-topics: ["Error Detection"]
+title: Hamming Codes
+topic: Error Detection
+tags: Error Detection
 module: 3
 lecture: 10
+date: [[2022-10-7]]
 ---
 
 ## Parity Check

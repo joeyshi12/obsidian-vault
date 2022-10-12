@@ -1,6 +1,5 @@
 ---
-title: "Network Discovery Tools
-topics: ["Network Discovery Tools"]
+title: twork Discovery Tools
 module: 3
 lecture: 9
 ---
