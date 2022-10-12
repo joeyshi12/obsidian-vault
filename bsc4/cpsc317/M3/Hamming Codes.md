@@ -1,4 +1,5 @@
 ---
+course: CPSC317
 title: Hamming Codes
 topic: Error Detection
 tags: Error Detection

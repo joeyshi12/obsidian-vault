@@ -8,21 +8,21 @@
 
 ## 2 Conceptual Design
 ```dataview
-table topic, lecture, date
+table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc304/2_conceptual_design"
 sort date, lecture
 ```
 
 ## 3 Relational Model
 ```dataview
-table topic, lecture, date
+table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc304/3_relational_model"
 sort date, lecture
 ```
 
 ## 4 Normal Forms
 ```dataview
-table topic, lecture, date
+table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc304/4_normal_forms"
 sort date, lecture
 ```

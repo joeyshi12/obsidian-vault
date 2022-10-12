@@ -1,7 +1,8 @@
 ---
+course: CPSC317
 title: MAC Address
-module: 3
 tags: Link Layer
+module: 3
 date: [[2022-10-5]]
 ---
 

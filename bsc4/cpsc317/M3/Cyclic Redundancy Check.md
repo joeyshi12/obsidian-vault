@@ -1,4 +1,5 @@
 ---
+course: CPSC317
 title: Cyclic Redundancy Check
 topic: Error Detection
 tags: Error Detection

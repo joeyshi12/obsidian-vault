@@ -1,5 +1,6 @@
 ---
-title: twork Discovery Tools
+course: CPSC317
+title: Network Discovery Tools
 module: 3
 lecture: 9
 ---

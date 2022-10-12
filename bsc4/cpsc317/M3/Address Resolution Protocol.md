@@ -1,4 +1,5 @@
 ---
+course: CPSC317
 title: Address Resolution Protocol
 topic: ARP
 tags: ARP

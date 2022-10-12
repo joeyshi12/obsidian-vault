@@ -1,5 +1,5 @@
 ---
-course: cpsc304
+course: CPSC304
 title: <% tp.file.title %>
 tags:
 module: <% tp.file.cursor(1) %>
