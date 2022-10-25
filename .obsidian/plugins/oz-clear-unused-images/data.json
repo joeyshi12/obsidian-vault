@@ -1,7 +1,7 @@
 {
-  "deleteOption": "system-trash",
+  "deleteOption": ".trash",
   "logsModal": true,
   "excludedFolders": "bsc3,bsc4",
-  "ribbonIcon": true,
+  "ribbonIcon": false,
   "excludeSubfolders": true
 }

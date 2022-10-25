@@ -1,4 +1,4 @@
-# Main Goals
+## Main Goals
 "Effective technique for multiplexed utilization of existing interconnected networks"
 - Integrating a number of separate entities into a common entity
 - Selected "packet-switching" to "multiplex communication"

@@ -26,3 +26,10 @@ table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc304/4_normal_forms"
 sort date, lecture
 ```
+
+## 5 Relational Algebra
+```dataview
+table topic as Topic, lecture as Lecture, date as Date
+from "bsc4/cpsc304/5_relational_algebra"
+sort date, lecture
+```

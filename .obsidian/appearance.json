@@ -1,5 +1,8 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 18.5,
   "cssTheme": "Minimal",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": "",
+  "translucency": false,
+  "showViewHeader": true
 }

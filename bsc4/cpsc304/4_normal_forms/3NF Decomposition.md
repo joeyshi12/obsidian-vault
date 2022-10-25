@@ -30,8 +30,8 @@ R3(JS)
 R4(CQVDJ)
 
 JD -> C violates BCNF in R4
-(QVD(J)S)
-R5(JS)
+(QV(JD)C)
+R5(JDC)
 R6(QVDJ)
 
 No more violations

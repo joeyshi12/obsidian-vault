@@ -6,7 +6,7 @@ module: 3
 date: [[2022-10-5]]
 ---
 
-A link-layer address is referred as a **MAC Address**.
+A link-layer address is referred as a **Medium Access Control** address.
 - e.g., `00:2A:C6:4B:00:44`
 - 48 bits
 
@@ -19,7 +19,7 @@ create up to $2^{24}$ unique combinations of the last 24 bits for each adapter.
 - 32-bit IP Address
     - Network-layer address
     - Used to get [[IPv4 Datagram Format|datagram]] from source to destination IP subnet
-    - Laptop IP addresses change when moved
+    - Laptop IP addresses change when moved according to [[Dynamic Host Configuration Protocol|DHCP]]
 - 48-bit MAC Address
     - Used to get [[Ethernet Frame Format|frame]] from one interface to another physically-connected interface (same network)
     - Laptop MAC addresses do not change

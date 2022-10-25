@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "170a4e810299019d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4235343642237d7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab0b4fb68b19275a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bsc4/cpsc317/M3/Link Layer Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87a637a25c8dba15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ffa6033a36e3319",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e77ce1458d3c7a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0c7dca5b8cb2da8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7da7b36ffdfb5d38",
+    "type": "split",
+    "children": [
+      {
+        "id": "5141b4c230a01f61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae29220291e2b5c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a47a1aa54da4e13",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.0008087158203
+  },
+  "right": {
+    "id": "b46857b0d428a059",
+    "type": "split",
+    "children": [
+      {
+        "id": "74362705afa6df9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0eec0763465c2423",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8082808740a115c2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "dbfd994963fd3e56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "f0c7dca5b8cb2da8",
+  "lastOpenFiles": [
+    "bsc4/cpsc304/6_sql/SQL Clauses.md",
+    "bsc4/cpsc304/6_sql/SQL Exercises.md",
+    "bsc4/cpsc304/clickers/M6 Clicker 2.md",
+    "bsc4/cpsc304/Relational Databases Overview.md",
+    "bsc4/cpsc304/clickers/M6 Clicker 1.md",
+    "bsc4/cpsc304/5_relational_algebra/Relational Algebra Operations.md",
+    "bsc4/cpsc304/5_relational_algebra/Relational Algebra Exercises.md",
+    "bsc4/cpsc317/M4/Network Address Translation.md",
+    "bsc4/cpsc304/2_conceptual_design/Lecture 3.md",
+    "bsc4/cpsc304/clickers/L7 Clicker 2.md"
+  ]
+}

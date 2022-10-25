@@ -18,3 +18,10 @@ table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc317/M3"
 sort date, lecture
 ```
+
+## M4
+```dataview
+table topic as Topic, lecture as Lecture, date as Date
+from "bsc4/cpsc317/M4"
+sort date, lecture
+```

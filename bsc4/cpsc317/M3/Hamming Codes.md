@@ -2,7 +2,7 @@
 course: CPSC317
 title: Hamming Codes
 topic: Error Detection
-tags: Error Detection
+tags: Error Detection, Link Layer Services
 module: 3
 lecture: 10
 date: [[2022-10-7]]

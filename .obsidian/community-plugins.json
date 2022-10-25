@@ -2,10 +2,10 @@
   "table-editor-obsidian",
   "obsidian-outliner",
   "obsidian-collapse-all-plugin",
-  "oz-clear-unused-images",
   "dataview",
   "obsidian-minimal-settings",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
-  "nldates-obsidian"
+  "nldates-obsidian",
+  "oz-clear-unused-images"
 ]

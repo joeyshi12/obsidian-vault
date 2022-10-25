@@ -8,8 +8,3 @@
 - Performance
     - Give good performance
     - Need to handle failure
-    
-
-## Layers
-Each layer implements a service
-- 

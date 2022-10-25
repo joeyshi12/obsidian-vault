@@ -1,1 +1,0 @@
-It taught us that how you deal with failure is the key to scaling systems
