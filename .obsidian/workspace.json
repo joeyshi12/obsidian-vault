@@ -4,66 +4,100 @@
     "type": "split",
     "children": [
       {
-        "id": "4235343642237d7a",
+        "id": "81791fe82afb0477",
         "type": "tabs",
         "children": [
           {
-            "id": "ab0b4fb68b19275a",
+            "id": "13c592b643968128",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc317/M3/Link Layer Services.md",
+                "file": "bsc4/cpsc317/M4/Query Decode.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "87a637a25c8dba15",
+            "id": "57fd97e587bed9c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "file": "bsc4/cpsc317/M6/One's Complement.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7ffa6033a36e3319",
+            "id": "61540830f0ffc65d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "file": "bsc4/cpsc304/6_sql/Movie SQL Exercises.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0e77ce1458d3c7a9",
+            "id": "2bcd2780b2e0812a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "file": "bsc4/cpsc304/6_sql/SQL Set Operations.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e438ba7058108737",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bsc4/cpsc304/6_sql/Student SQL Exercises.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f0c7dca5b8cb2da8",
+            "id": "1b210466cb9c1e4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "file": "bsc4/cpsc317/M2/IPv4 Datagram Format.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0874e7d9d7b67302",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bsc4/cpsc317/Internet Networking Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2ad1b03a66f6007",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "attachments/Store-Forward 2022-10-31 09.19.16.excalidraw.md"
               }
             }
           }
@@ -126,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md",
+                "file": "bsc4/cpsc304/6_sql/Student SQL Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/SQL Exercises.md"
+                "file": "bsc4/cpsc304/6_sql/Student SQL Exercises.md"
               }
             }
           }
@@ -163,20 +197,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "f0c7dca5b8cb2da8",
+  "active": "e438ba7058108737",
   "lastOpenFiles": [
+    "bsc4/cpsc304/6_sql/Movie SQL Exercises.md",
+    "bsc4/cpsc304/6_sql/Nested Queries.md",
+    "bsc4/cpsc304/6_sql/SQL Set Operations.md",
+    "bsc4/cpsc304/6_sql/Student SQL Exercises.md",
     "bsc4/cpsc304/6_sql/SQL Clauses.md",
-    "bsc4/cpsc304/6_sql/SQL Exercises.md",
-    "bsc4/cpsc304/clickers/M6 Clicker 2.md",
-    "bsc4/cpsc304/Relational Databases Overview.md",
-    "bsc4/cpsc304/clickers/M6 Clicker 1.md",
-    "bsc4/cpsc304/5_relational_algebra/Relational Algebra Operations.md",
-    "bsc4/cpsc304/5_relational_algebra/Relational Algebra Exercises.md",
-    "bsc4/cpsc317/M4/Network Address Translation.md",
-    "bsc4/cpsc304/2_conceptual_design/Lecture 3.md",
-    "bsc4/cpsc304/clickers/L7 Clicker 2.md"
+    "bsc4/cpsc317/M6/Reliable Data Transfer.md",
+    "attachments/One's Complement 2022-11-02 09.17.46.excalidraw.md",
+    "attachments/Reliable Data Transfer 2022-11-02 09.35.01.excalidraw.md",
+    "attachments/Reliable Data Transfer 2022-11-02 09.38.32.excalidraw.md",
+    "bsc4/cpsc317/M6/One's Complement.md"
   ]
 }
