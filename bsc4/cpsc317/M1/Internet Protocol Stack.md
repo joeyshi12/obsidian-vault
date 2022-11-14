@@ -14,4 +14,9 @@ date: [[2022-10-12]]
 | Link        | delivers datagram to next node                              | Ethernet, WIFI, ARP       |
 | Physical    | transport individual bits                                   | Copper wire, fiber optics |
 
+Each layer below the application layer can be thought as an abstract data transfer channel
+between sender and receiver.
+
+![[Pasted image 20221114111120.png|800]]
+
 ![[Pasted image 20220916090831.png|600]]

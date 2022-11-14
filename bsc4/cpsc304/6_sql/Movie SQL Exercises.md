@@ -108,3 +108,18 @@ SELECT StarID, Name
 FROM MovieStar MS, StarsIn S
 WHERE MS.StarID = S.StarId AND MS.Gender = 'female' AND S.MovieID = 28
 ```
+
+Find movies made after "Fargo"
+```SQL
+SELECT MovieID
+FROM Movie M
+WHERE M.Year > ANY (SELECT Year
+                    FROM Movie M2
+                    WHERE M2.Title = "Fargo")
+                    
+SELECT MovieID
+FROM Movie M
+WHERE EXISTS (SELECT *
+              FROM Movie M2
+              WHERE M2.Title = "Fargo" AND M.Year > M2.Year)
+```

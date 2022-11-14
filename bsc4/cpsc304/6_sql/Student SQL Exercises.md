@@ -52,3 +52,54 @@ WHERE NOT EXISTS (SELECT *
                   FROM Student S2
                   WHERE S2.age > S.age)
 ```
+
+Find the name and age of the oldest students
+```SQL
+SELECT sname, age
+FROM Student S
+WHERE S.age >= ALL (SELECT age
+                    FROM Student S2)
+
+SELECT sname, age
+FROM Student
+WHERE age = (SELECT MAX(S2.age) FROM Student S2)
+```
+
+Find average age of SR students
+```SQL
+SELECT AVG(S2.age)
+FROM Student S2
+WHERE S2.standing = 'SR'
+```
+
+How many students have taken a class with "Database" in the title
+```SQL
+SELECT COUNT(DISTINCT snum)
+FROM Enrolled
+WHERE cname LIKE '%Database%'
+```
+
+Find the age of the youngest student who is at least 19, for each major
+```SQL
+SELECT major, MIN(age)
+FROM Student
+WHERE age >= 19
+GROUP BY major
+```
+
+For each class, find the age of the youngest student who has enrolled in this class
+```SQL
+SELECT cname, MIN(age)
+FROM Student S, Enrolled E
+WHERE S.snum = E.snum
+GROUP BY cname
+```
+
+For each course with more than 1 enrollment, find the age of the youngest student who has taken this class
+```SQL
+SELECT cname, MIN(age)
+FROM Student S, Enrolled E
+WHERE S.snum = E.snum AND C > 1
+GROUP BY cname
+HAVING COUNT(*) > 1
+```

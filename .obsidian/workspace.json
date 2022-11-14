@@ -4,105 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "81791fe82afb0477",
+        "id": "9e9452033324d88e",
         "type": "tabs",
         "children": [
           {
-            "id": "13c592b643968128",
+            "id": "56b5c195ed40e190",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc317/M4/Query Decode.md",
+                "file": "bsc4/cpsc317/M6/FSM of RDT Protocols.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "57fd97e587bed9c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsc4/cpsc317/M6/One's Complement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61540830f0ffc65d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsc4/cpsc304/6_sql/Movie SQL Exercises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bcd2780b2e0812a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsc4/cpsc304/6_sql/SQL Set Operations.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e438ba7058108737",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsc4/cpsc304/6_sql/Student SQL Exercises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b210466cb9c1e4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsc4/cpsc317/M2/IPv4 Datagram Format.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0874e7d9d7b67302",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsc4/cpsc317/Internet Networking Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2ad1b03a66f6007",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "attachments/Store-Forward 2022-10-31 09.19.16.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MSI",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/Student SQL Exercises.md",
+                "file": "bsc4/cpsc317/M6/FSM of RDT Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bsc4/cpsc304/6_sql/Student SQL Exercises.md"
+                "file": "bsc4/cpsc317/M6/FSM of RDT Protocols.md"
               }
             }
           }
@@ -197,17 +114,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e438ba7058108737",
+  "active": "56b5c195ed40e190",
   "lastOpenFiles": [
-    "bsc4/cpsc304/6_sql/Movie SQL Exercises.md",
-    "bsc4/cpsc304/6_sql/Nested Queries.md",
-    "bsc4/cpsc304/6_sql/SQL Set Operations.md",
-    "bsc4/cpsc304/6_sql/Student SQL Exercises.md",
-    "bsc4/cpsc304/6_sql/SQL Clauses.md",
+    "bsc4/cpsc317/M6/Sliding Window.md",
+    "bsc4/cpsc317/M6/FSM of RDT Protocols.md",
     "bsc4/cpsc317/M6/Reliable Data Transfer.md",
-    "attachments/One's Complement 2022-11-02 09.17.46.excalidraw.md",
-    "attachments/Reliable Data Transfer 2022-11-02 09.35.01.excalidraw.md",
-    "attachments/Reliable Data Transfer 2022-11-02 09.38.32.excalidraw.md",
-    "bsc4/cpsc317/M6/One's Complement.md"
+    "bsc4/cpsc317/M6/Perfomance Metrics.md",
+    "bsc4/cpsc317/M6/Performance of RDT.md",
+    "bsc4/cpsc317/M6/One's Complement.md",
+    "bsc4/cpsc317/M6/M6 Learning Goals.md",
+    "attachments/FSM of RDT Protocols 2022-11-14 11.24.16.excalidraw.md",
+    "bsc4/cpsc317/M1/Internet Protocol Stack.md",
+    "bsc4/cpsc317/M1/Goals for Internet Design.md"
   ]
 }

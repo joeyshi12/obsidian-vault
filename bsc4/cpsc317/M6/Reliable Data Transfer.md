@@ -7,10 +7,14 @@ module: 6
 date: [[2022-11-02]]
 ---
 
-Reliability means either
-1. We get out msg or
+Recall that reliability in networking means either
+1. We get the correct msg or
 2. We get notified of failure
 
-![[Reliable Data Transfer 2022-11-02 09.35.01.excalidraw]]
+## Reliable Data Transfer Protocol
 
-![[Reliable Data Transfer 2022-11-02 09.38.32.excalidraw]]
+RDT provides a service abstraction for the application layer.
+In particular, the packets that are passed between transport and network layer
+can be corrupted and it is the job of the transport layer provide a reliable channel.
+
+![[Pasted image 20221114111120.png|800]]
