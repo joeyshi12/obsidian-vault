@@ -99,7 +99,51 @@ For each course with more than 1 enrollment, find the age of the youngest studen
 ```SQL
 SELECT cname, MIN(age)
 FROM Student S, Enrolled E
-WHERE S.snum = E.snum AND C > 1
+WHERE S.snum = E.snum
 GROUP BY cname
 HAVING COUNT(*) > 1
 ```
+
+Find the average age for each standing (e.g., Freshman)
+```SQL
+SELECT AVG(age)
+FROM Student
+GROUP BY standing
+```
+
+Find the deptID and \# of faculty members for each department having a deptID > 20
+```SQL
+SELECT deptid, COUNT(*)
+FROM Faculty
+WHERE deptid > 20
+GROUP BY deptid
+
+-- Alternatively:
+SELECT deptid, COUNT(*)
+FROM Faculty
+GROUP BY deptid
+HAVING deptid > 20
+```
+
+Find the age of the youngest student with age > 18, for each
+major with at least 2 students (of age > 18)
+```SQL
+SELECT major, MIN(age)
+FROM Student
+WHERE age > 18
+GROUP BY major
+HAVING COUNT(*) > 1
+```
+
+Find the age of the youngest student with age > 18, for each
+major for which the average age of the students who are >18 is higher than
+the average age of all students acrosss all majors
+```SQL
+SELECT major, MIN(age)
+FROM Student
+WHERE age > 18
+GROUP BY major
+HAVING AVG(age) > (SELECT AVG(age) FROM Student))
+```
+
+Find the above majors for which their average age is the minimum

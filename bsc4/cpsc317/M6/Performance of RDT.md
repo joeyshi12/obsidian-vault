@@ -2,7 +2,7 @@
 course: CPSC317
 title: Performance of RDT
 topic: RDT
-tags:
+tags: RDT
 module: 6
 date: [[2022-11-07]]
 ---

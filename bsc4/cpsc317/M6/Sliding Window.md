@@ -20,3 +20,7 @@ Sender has k-bit sequence number in header and a window size of N
 
 ## Selective Repeat Dilemma
 - Can be avoided if \# Sequence numbers >= SWS + RWS
+
+## TCP
+Uses cumulative ACK
+- When receiver sends an ACK for a packet, it means every packet before has also been received

@@ -2,7 +2,7 @@
 course: CPSC317
 title: FSM of RDT Protocols
 topic: RDT
-tags:
+tags: RDT
 module: 6
 date: [[2022-11-14]]
 ---
