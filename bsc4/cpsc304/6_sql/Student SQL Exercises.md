@@ -146,4 +146,11 @@ GROUP BY major
 HAVING AVG(age) > (SELECT AVG(age) FROM Student))
 ```
 
-Find the above majors for which their average age is the minimum
+Write an assertion to enforce every student to be registered in at least one course.
+```SQL
+CREATE ASSERTION totalRegistration
+CHECK
+(NOT EXISTS ((SELECT snum FROM Student)
+             EXCEPT
+             (SELECT snum FROM Enrolled)))
+```

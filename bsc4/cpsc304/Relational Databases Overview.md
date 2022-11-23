@@ -33,3 +33,10 @@ table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc304/5_relational_algebra"
 sort date, lecture
 ```
+
+## 6 Relational Algebra
+```dataview
+table topic as Topic, lecture as Lecture, date as Date
+from "bsc4/cpsc304/6_sql"
+sort date, lecture
+```
