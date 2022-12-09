@@ -33,9 +33,16 @@ from "bsc4/cpsc317/M5"
 sort date, lecture
 ```
 
-## M5
+## M6
 ```dataview
 table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc317/M6"
+sort date, lecture
+```
+
+## M7
+```dataview
+table topic as Topic, lecture as Lecture, date as Date
+from "bsc4/cpsc317/M7"
 sort date, lecture
 ```

@@ -46,3 +46,26 @@ Purchase(buyer, seller, store, product),
 not Purchase(buyer, seller, “The Bay”, product)
 ```
 The NOT in Datalog means “there exists no”
+
+## Rule Safety
+Sin, Ph, City are unsafe
+```
+Ans(Sin) :- NOT Person(Sin, 'Joe', Ph, City)
+```
+
+## Division
+- Cust(cid, cname, rating, salary)
+- Order(iid, cid, day, qty)
+
+Find items that are ordered by every customer
+- $\pi_{iid, cid}(Order)/\pi_{cid}(Cust)$
+
+Datalog:
+```
+Witness(I,C) :- Order(I,C,_,_)  
+Bad(I) :- Cust(_,C,_,_), Order(I,_,_,_), NOT Witness(I,C)
+Good(I) :- Order(I,C, _, _), NOT Bad(I)
+```
+- Witness is all items that have been ordered
+- Bad finds all items that have not been ordered
+- Good: finds all items that have not been not ordered by some customer

@@ -1,3 +1,4 @@
+# Goals
 1. Conceptually model concepts
 2. Logically model concepts in a database
 3. Make our design efficient
@@ -34,9 +35,23 @@ from "bsc4/cpsc304/5_relational_algebra"
 sort date, lecture
 ```
 
-## 6 Relational Algebra
+## 6 SQL
 ```dataview
 table topic as Topic, lecture as Lecture, date as Date
 from "bsc4/cpsc304/6_sql"
+sort date, lecture
+```
+
+## 7 Datalog
+```dataview
+table topic as Topic, lecture as Lecture, date as Date
+from "bsc4/cpsc304/7_datalog"
+sort date, lecture
+```
+
+## 8 Data Warehousing
+```dataview
+table topic as Topic, lecture as Lecture, date as Date
+from "bsc4/cpsc304/8_data_warehousing"
 sort date, lecture
 ```

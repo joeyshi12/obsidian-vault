@@ -1,11 +1,9 @@
 # JavaScript
 JavaScript is a is a *non-blocking*, *asyncronous*, *single-threaded*, *concurrent* language with an *event-loop*
 
-
 ## Single-threaded
 JavaScript can only have one sequence of instruction execution occurring over time, which are managed by the event-loop.
 The set of instructions to be executed are pushed and popped from the call stack whenever a function is called and completed.
-
 
 ## Event-loop
 Async functions with a callback are handled by *webapis*.

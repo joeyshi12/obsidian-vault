@@ -1,3 +1,13 @@
+---
+course: CPSC317
+title: Network Routing - One Hop
+topic: Routing
+tags:
+module: 2
+date: [[2022-11-23]]
+---
+
+
 ![[Pasted image 20220923091550.png|800]]
 
 Source `192.168.0.45` is trying to send a message to destination `23.96.1.0`
