@@ -19,7 +19,6 @@ lecture: 6
 How many host address are there?
 - Given $k$ network bits, $2^k - 2$
 
-
 ## Packet Network
 - No call setup at network layer
 - Routers: no state about end-to-end connections
@@ -43,9 +42,6 @@ How many host address are there?
 - Tell host what to do with packet once arrived
 - Specify any speical network handling of the packet
 - Deal with problems tha arise along the path
-
-[[IPv4 Datagram Format]]
-
 
 ## Exercise
 - 6 networks

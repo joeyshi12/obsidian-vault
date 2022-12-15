@@ -8,55 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dbedb3cf116b9819",
+            "id": "9e83ed065cb6c45d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc317/M7/Secure Communication.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8f979d2ea7f57750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsc4/cpsc317/M7/SSL and TLS.md",
+                "file": "bsc4/cpsc317/M7/Digital Signature.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bee44a3fce965527",
+            "id": "a29f86c9ddf886c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc304/9_datamining/Association Rules.md",
+                "file": "bsc4/cpsc317/M3/Ethernet Frame Format.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f8934c28b4308b21",
+            "id": "3b57a7740d31fdf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bsc4/cpsc304/9_datamining/Apriori Algorithm.md",
+                "file": "bsc4/cpsc317/M4/UDP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bsc4/cpsc304/9_datamining/Apriori Algorithm.md",
+                "file": "bsc4/cpsc317/M7/Digital Signature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,28 +126,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bsc4/cpsc304/9_datamining/Apriori Algorithm.md"
+                "file": "bsc4/cpsc317/M7/Digital Signature.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f8934c28b4308b21",
+  "active": "9e83ed065cb6c45d",
   "lastOpenFiles": [
-    "bsc4/cpsc304/9_datamining/Association Rules.md",
-    "bsc4/cpsc304/8_data_warehousing/Benefit of Materializing a View.md",
-    "bsc4/cpsc304/8_data_warehousing/Data Cube.md",
-    "bsc4/cpsc304/8_data_warehousing/Learning Goals 8.md",
-    "bsc4/cpsc304/8_data_warehousing/OLTP.md",
-    "bsc4/cpsc304/8_data_warehousing/OLAP vs. OLTP.md",
-    "bsc4/cpsc304/8_data_warehousing/OLAP Query Types.md",
-    "bsc4/cpsc304/8_data_warehousing/OLAP.md",
-    "bsc4/cpsc304/9_datamining/Apriori Algorithm.md",
-    "bsc4/cpsc317/M7/SSL and TLS.md"
+    "attachments/TCP 2022-10-21 09.22.01.excalidraw.md",
+    "bsc4/cpsc317/M7/IPsec and VPNs.md",
+    "bsc4/cpsc317/M7/SSH.md",
+    "bsc4/cpsc317/M7/Digital Signature.md",
+    "bsc4/cpsc317/M7/Learning Goals.md",
+    "bsc4/cpsc317/M7/MAC and HMAC.md",
+    "bsc4/cpsc317/M7/Message Digests.md",
+    "bsc4/cpsc317/M7/Secure Communication.md",
+    "bsc4/cpsc317/M7/Nonce.md",
+    "bsc4/cpsc317/M4/Domain Name System.md"
   ]
 }

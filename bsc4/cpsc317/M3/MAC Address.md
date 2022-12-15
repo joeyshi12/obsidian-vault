@@ -19,7 +19,7 @@ create up to $2^{24}$ unique combinations of the last 24 bits for each adapter.
 - 32-bit IP Address
     - Network-layer address
     - Used to get [[IPv4 Datagram Format|datagram]] from source to destination IP subnet
-    - Laptop IP addresses change when moved according to [[Dynamic Host Configuration Protocol|DHCP]]
+    - Laptop IP addresses change when moved according to [[DHCP|DHCP]]
 - 48-bit MAC Address
     - Used to get [[Ethernet Frame Format|frame]] from one interface to another physically-connected interface (same network)
     - Laptop MAC addresses do not change

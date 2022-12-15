@@ -7,5 +7,7 @@
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
   "nldates-obsidian",
-  "oz-clear-unused-images"
+  "oz-clear-unused-images",
+  "omnisearch",
+  "obsidian-doubleshift"
 ]

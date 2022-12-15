@@ -16,3 +16,8 @@ Examples of finite state machines of [[Reliable Data Transfer]] protocols.
 ## RDT 2.0: Bit Errors
 
 ![[Pasted image 20221114114304.png|700]]
+
+## RDT 3.0: Corrupt ACK/NAK
+
+![[Pasted image 20221213161243.png|600]]
+![[Pasted image 20221213161258.png|600]]

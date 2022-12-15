@@ -15,20 +15,18 @@ date: [[2022-10-7]]
     - ParityCheckError: sum of payload bits is odd, but parity check if even
 
 ## Hamming Codes: 2D Parity Checking
-
-Example: 10101 01011 10111
 ```
+Example: 10101 01011 10111
+
 1 0 1 0 1 | rowsum = 1
 0 1 0 1 1 | rowsum = 1
 1 0 1 1 1 | rowsum = 0
 ----------
 0 1 0 0 1            0
 colsums
-```
 
-Sender sends
-- 10101(1) 01011(1) 10111(0) (010010)
-- EC bit at the end of each chunk (including column check bits)
+Send: 10101(1) 01011(1) 10111(0) (010010)
+```
 
 The Receiver can
 - Identify the flipped bit if 1 bit was flipped
