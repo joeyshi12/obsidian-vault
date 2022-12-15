@@ -1,3 +1,7 @@
+# obsidian
 .trash/
 .obsidian/page-preview.json
 .obsidian/workspace.json
+
+# macOS
+.DS_Store
