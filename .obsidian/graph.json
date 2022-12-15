@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#excalidraw",
+  "search": "path:bsc3 OR path:bsc4",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -53,6 +53,6 @@
   "repelStrength": 8.58737244897959,
   "linkStrength": 1,
   "linkDistance": 120,
-  "scale": 1.0158281420518307,
+  "scale": 0.4627952607040702,
   "close": true
 }
