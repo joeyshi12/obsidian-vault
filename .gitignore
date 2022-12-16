@@ -3,6 +3,9 @@
 .obsidian/page-preview.json
 .obsidian/workspace.json
 
+# image files
+attachments/*.png
+
 # macOS
 .DS_Store
 
