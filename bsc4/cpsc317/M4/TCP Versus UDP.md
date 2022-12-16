@@ -7,9 +7,6 @@ module: 4
 date: [[2022-10-17]]
 ---
 
-Notes:
--  Reliable: on failure an error message is provided
-
 Ordered delivery -> delivers segments in-order (in M6)  
 Bidirectional -> data flows both ways  
 Unidirectional -> data can flow only one way  
@@ -21,8 +18,6 @@ Stream-oriented -> sends a stream of bytes
 Message-oriented -> send messages  
 Multicast -> can multicast on LAN  
 Non-duplication -> handle duplicate packets
-
-![[Untitled 2022-10-19 09.13.05.excalidraw|800]]
 
 | Service               | TCP | UDP |
 | --------------------- | --- | --- |
@@ -44,3 +39,5 @@ Non-duplication -> handle duplicate packets
 | Multicast             |     |     |
 | Non-duplication       | 1   |     |
 | One-to-one connection | 1   |     |
+
+![[Untitled 2022-10-19 09.13.05.excalidraw|800]]

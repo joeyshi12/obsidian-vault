@@ -65,7 +65,7 @@ def list_images():
         sys.exit(2)
     for image in images:
         dimensions = f"{image.width}x{image.height}"
-        print(f"{image.imgid:<12}{image.size:<12}{dimensions:<12}{image.name}")
+        print(f"{image.link:<36}{image.size:<12}{dimensions:<12}{image.name}")
 
 def sync_images():
     token = _read_token()

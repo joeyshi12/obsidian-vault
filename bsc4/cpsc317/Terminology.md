@@ -1,26 +1,24 @@
 ## M1
-
-| Term              | Description |
-| ----------------- | ----------- |
-| Protocol          |             |
-| Packet-switching  |             |
-| Circuit-switching |             |
-| StatMux           |             |
+| Term              | Description                                                                                                                                                                            |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Protocol          | The format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event |
+| Packet-switching  | Data is broken into packets and travels through communication links and *packet switches* (routers or link-layer switches)                                                           |
+| Circuit-switching | Communication path between end systems are *reserved*                                                                                                                                |
+| StatMux           |                                                                                                                                                                                        |
+|                   |                                                                                                                                                                                        |
 
 A host can connect to routers/NAT routers.
 This is contained in the ISP, which is contained inside an AS.
-An AS can connect to other AS.
 
-| Term              | Description                                                                                            |
-| ----------------- | ------------------------------------------------------------------------------------------------------ |
-| Router forwarding | Local router action for transferring a packet from an input link interface to an output link interface |
-| ISP               |                                                                                                        |
-| AS                |                                                                                                        |
-| iBGP              | Needed for scalability, has policies for different administrative domains                              |
-| BGP               | Policy-based                                                                                           |
-| OSPF              | Does not scale                                                                                         |
+## M2
+| Term               | Description                                                                                                                                         |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Forwarding]]     | Local router action for transferring a packet from an input link interface to an output link interface                                              |
+| AS                 | Group of routers under the same administrative control. Routers in an AS run the same intra-autonomous system routing protocol                      |
+| [[OSPF]]           | Intra-AS routing protocol, where each router in the AS determines shortest-path to all subnets                                                      |
+| [[BGP]]            | Inter-AS routing protocol that provides each router as means to obtain reachability info on neighbouring AS and find best routes to addres prefixes |
+| Hot Potato Routing | OSPF sends packets to the closest border router                                                                                                     |
 
-- Hot potato routing: OSPF sends to closest border
 - A port is a number attached to a socket
 - TCP matches port to socket based on the 4-tuple
 - On socket accept, the new port for the client fd is the same port as the original socket fd
@@ -29,11 +27,13 @@ How do we get from the interface card to the router?
 - Ethernet / layer-2 / data link layer
 - Only TTL and checksum gets updated in this process
 
-BGP uses TCP
-DNS uses UDP
-DHCP uses UDP
-ICMP uses IP
-ARP uses Ethernet
+| Protocol | Depends on |
+| -------- | ---------- |
+| BGP      | TCP        |
+| DNS      | UDP        |
+| DHCP     | UDP        |
+| ICMP     | IP         |
+| ARP      | Ethernet   | 
 
 RDT 2.2 will be given for the exam
 Formula for average intesity will be given
