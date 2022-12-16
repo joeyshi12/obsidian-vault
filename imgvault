@@ -110,7 +110,7 @@ def delete_unused_images():
         print(f"Failed to fetch images from album {album_hash}")
         sys.exit(2)
     for image in uploaded_images:
-        if not image.name or image.name not in files:
+        if image.name is None or image.name not in files:
             _delete_image(image, token)
 
 def _fetch_images() -> Optional[List[ImgurImage]]:
