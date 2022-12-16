@@ -1,0 +1,203 @@
+#!/usr/bin/python3
+import os
+import sys
+from dataclasses import dataclass
+from typing import Optional, List
+
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+client_id = os.environ.get("CLIENT_ID")
+if not client_id:
+    print("CLIENT_ID not loaded")
+    sys.exit(2)
+client_secret = os.environ.get("CLIENT_SECRET")
+if not client_secret:
+    print("CLIENT_SECRET not loaded")
+
+api_url = "https://api.imgur.com/3"
+authorize_url = "https://api.imgur.com/oauth2/authorize"
+access_token_url = "https://api.imgur.com/oauth2/token"
+timeout_seconds = 8
+
+# User configuration
+attachments_dir = "attachments"
+token_file = ".token"
+album_hash = "Yy4p6oX"
+
+@dataclass
+class ImgurImage:
+    imgid: str
+    name: str
+    width: int
+    height: int
+    size: int
+    link: str
+
+def generate_token():
+    print("Authorization URL:\n"
+          f"{authorize_url}?response_type=code&client_id={client_id}&redirect_uri=https%3A%2F%2Fimgur.com")
+    code = input("Authorization code: ")
+    response = requests.post(
+        access_token_url,
+        data={
+            "grant_type": "authorization_code",
+            "client_id": client_id,
+            "client_secret": client_secret,
+            "code": code,
+            "redirect_uri": "https://imgur.com"
+        },
+        timeout=timeout_seconds
+    )
+    if response.status_code != 200:
+        print("Failed to generate token")
+        sys.exit(2)
+    token = response.json().get("access_token")
+    with open(token_file, "w", encoding="utf-8") as f:
+        f.write(token)
+    print(f"Saved token in {token_file}")
+
+def list_images():
+    images = _fetch_images()
+    if images is None:
+        print(f"Failed to fetch images from album {album_hash}")
+        sys.exit(2)
+    for image in images:
+        dimensions = f"{image.width}x{image.height}"
+        print(f"{image.imgid:<12}{image.size:<12}{dimensions:<12}{image.name}")
+
+def sync_images():
+    token = _read_token()
+    if not token:
+        print(f"Please first generate {token_file} with genToken")
+        sys.exit(2)
+    files = os.listdir(attachments_dir)
+    uploaded_images = _fetch_images()
+    if uploaded_images is None:
+        print(f"Failed to fetch images from album {album_hash}")
+        sys.exit(2)
+
+    uploaded_image_names = set(image.name for image in uploaded_images if image.name)
+    print(uploaded_image_names)
+    print("Uploading new images...")
+    for filename in files:
+        if filename in uploaded_image_names:
+            continue
+        response = _upload_image(filename, token)
+        print(f"{response.status_code}\t{filename}")
+
+    fileset = set(files)
+    print("Pulling missing images...")
+    for image in uploaded_images:
+        # skip nameless images
+        if not image.name or image.name in fileset:
+            continue
+        response = requests.get(image.link, timeout=timeout_seconds)
+        with open(f"{attachments_dir}/{image.name}", "wb") as f:
+            f.write(response.content)
+        print(f"{image.name}\t{response.status_code}")
+
+def delete_unused_images():
+    token = _read_token()
+    if not token:
+        print(f"Please first generate {token_file} with genToken")
+        sys.exit(2)
+    files = set(os.listdir(attachments_dir))
+    uploaded_images = _fetch_images()
+    if uploaded_images is None:
+        print(f"Failed to fetch images from album {album_hash}")
+        sys.exit(2)
+    for image in uploaded_images:
+        if not image.name or image.name not in files:
+            _delete_image(image, token)
+
+def _fetch_images() -> Optional[List[ImgurImage]]:
+    response = requests.get(
+        f"{api_url}/album/{album_hash}",
+        headers={"Authorization": f"Client-ID {client_id}"},
+        timeout=timeout_seconds)
+    if response.status_code != 200:
+        print(f"failed to request images from album {album_hash}")
+        sys.exit(2)
+    return _parse_images(response)
+
+def _upload_image(filename: str, token: str) -> requests.Response:
+    image_path = os.path.join(attachments_dir, filename)
+    with open(image_path, "rb") as f:
+        image_data = f.read()
+        return requests.post(
+            f"{api_url}/image",
+            headers={
+                "Authorization": f"Bearer {token}"
+            },
+            data={
+                "album": album_hash,
+                "image": image_data,
+                "title": filename
+            },
+            timeout=timeout_seconds
+        )
+
+def _delete_image(image: ImgurImage, token: str):
+    response = requests.delete(
+        f"{api_url}/image/{image.imgid}",
+        headers={
+            "Authorization": f"Bearer {token}"
+        },
+        timeout=timeout_seconds
+    )
+    print(f"{response.status_code}\t{image.name}")
+
+def _parse_images(response: requests.Response) -> Optional[List[ImgurImage]]:
+    data = response.json().get("data")
+    if not data:
+        return None
+    images = data.get("images")
+    if images is None:
+        return None
+    return [
+        ImgurImage(image.get("id"),
+                   image.get("title"),
+                   image.get("width"),
+                   image.get("height"),
+                   image.get("size"),
+                   image.get("link"))
+        for image in images
+    ]
+
+def _read_token() -> Optional[str]:
+    if not os.path.exists(token_file):
+        return None
+    with open(token_file, "r", encoding="utf-8") as f:
+        return f.read()
+
+def print_usage():
+    print(f"usage: {sys.argv[0]} (genToken|list|sync|clean)")
+
+def main():
+    if len(sys.argv) != 2:
+        print_usage()
+        sys.exit(1)
+    command = sys.argv[1]
+    try:
+        if command == "genToken":
+            generate_token()
+        elif command == "list":
+            list_images()
+        elif command == "sync":
+            sync_images()
+        elif command == "clean":
+            delete_unused_images()
+        else:
+            print_usage()
+        sys.exit(0)
+    except KeyboardInterrupt:
+        sys.exit(2)
+    except Exception as err:
+        if len(err.args) > 0:
+            print(f"error: {err.args[0]}")
+        sys.exit(2)
+
+if __name__ == "__main__":
+    main()
