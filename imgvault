@@ -109,9 +109,20 @@ def delete_unused_images():
     if uploaded_images is None:
         print(f"Failed to fetch images from album {album_hash}")
         sys.exit(2)
+
+    image_counts = {}
     for image in uploaded_images:
-        if image.name is None or image.name not in files:
+        if image.name is None:
+            continue
+        if image.name not in image_counts:
+            image_counts[image.name] = 1
+        else:
+            image_counts[image.name] += 1
+
+    for image in uploaded_images:
+        if image.name is None or image.name not in files or image_counts.get(image.name, 0) > 1:
             _delete_image(image, token)
+            image_counts[image.name] -= 1
 
 def _fetch_images() -> Optional[List[ImgurImage]]:
     response = requests.get(
