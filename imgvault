@@ -79,7 +79,6 @@ def sync_images():
         sys.exit(2)
 
     uploaded_image_names = set(image.name for image in uploaded_images if image.name)
-    print(uploaded_image_names)
     print("Uploading new images...")
     for filename in files:
         if filename in uploaded_image_names:
