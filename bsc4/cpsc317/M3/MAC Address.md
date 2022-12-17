@@ -6,14 +6,15 @@ module: 3
 date: [[2022-10-5]]
 ---
 
-A link-layer address is referred as a **Medium Access Control** address.
-- e.g., `00:2A:C6:4B:00:44`
-- 48 bits
+# Media Access Control Address
+- Hosts have adapters / network interface cards (NIC)
+- Network interfaces have MAC addresses
+- 6 bytes / 48 bits (e.g., `00-2A-C6-4B-00-44`)
 
-MAC address space is managed by IEEE
-When a company purchases a chunk of address space,
-IEEE fixes the first 24 bits of a MAC address and lets the company
-create up to $2^{24}$ unique combinations of the last 24 bits for each adapter.
+## Address Space
+- MAC address space is managed by IEEE
+- When a company purchases a chunk of address space,
+- IEEE fixes the first 24 bits of a MAC address and lets the company create up to $2^{24}$ unique combinations of the last 24 bits for each adapter.
 
 ## MAC Address vs IP Address
 - 32-bit IP Address

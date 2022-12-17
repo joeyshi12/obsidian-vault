@@ -50,10 +50,9 @@ i.e., advertising 200.23.16.0/21 is the same as advertising the other 2 addresse
 ```
 
 ## BGP Terminology
-| Term        | Definition                                                                               |
-| ----------- | ---------------------------------------------------------------------------------------- |
-| BGP speaker | creates a   TCP connection between   two routers both speaking   BGP   Border router     |
-| iBGP        | propagate   reachability information to   all AS-internal routers and   advertise prefix |
-| eBGP        | obtain subnet   reachability information   from neighboring ASs                          |
 
-**All border routers run eBGP**
+| Term        | Definition                                                                            |
+| ----------- | ------------------------------------------------------------------------------------- |
+| BGP speaker | creates a TCP connection between two routers both speaking BGP Border router          |
+| iBGP        | propagate reachability information to all AS-internal routers and advertise prefix    |
+| eBGP        | used by border routers to obtain subnet reachability information from neighboring ASs |

@@ -20,4 +20,6 @@ as application-layer data flows from Process B to Process A
 
 ![[Pasted image 20221023233505.png|700]]
 
+## TCP Client-Server Flow
+
 ![[TCP 2022-10-21 09.22.01.excalidraw|800]]

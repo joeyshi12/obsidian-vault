@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:bsc3 OR path:bsc4",
+  "search": "path:bsc4/cpsc317",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -53,6 +53,6 @@
   "repelStrength": 8.58737244897959,
   "linkStrength": 1,
   "linkDistance": 120,
-  "scale": 0.6479444427326857,
+  "scale": 1.058130684744978,
   "close": true
 }

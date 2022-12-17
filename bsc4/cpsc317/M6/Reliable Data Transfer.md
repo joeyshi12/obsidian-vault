@@ -18,10 +18,11 @@ In particular, the packets that are passed between transport and network layer
 can be corrupted and it is the job of the transport layer provide a reliable channel.
 
 RDT ensures data from the sending process is received correctly and in-order by using
-1. Flow control
+1. Checksums
 2. Sequence numbers
-3. Acknowledgments
-4. Timers
+3. Retransmissions
+5. Acknowledgments
+6. Timers
 
 
 ![[Pasted image 20221114111120.png|800]]
