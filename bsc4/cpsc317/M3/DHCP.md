@@ -7,7 +7,6 @@ date: [[2022-10-12]]
 ---
 
 ## Dynamic Host Configuration Protocol
-
 A protocol for dynamically obtain IP address from network server when it joins network.
 DHCP provides, at minimum:
 - IP address

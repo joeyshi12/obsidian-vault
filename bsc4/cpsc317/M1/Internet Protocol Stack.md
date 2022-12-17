@@ -8,10 +8,10 @@ date: [[2022-10-12]]
 
 | Stack       | Description                                                 | Examples Protocols        |
 | ----------- | ----------------------------------------------------------- | ------------------------- |
-| Application | application-layer protocols reside here                     | HTTP, SMTP, FTP, DHCP     |
-| Transport   | transport app-layer message betweeen application end-points | TCP, UDP                  |
+| Application | application-layer protocols reside here                     | HTTP, SMTP, FTP, [[DHCP]] |
+| Transport   | transport app-layer message betweeen application end-points | [[TCP]], [[UDP]]          |
 | Network     | move network-layer packets between hosts                    | IP                        |
-| Link        | delivers datagram to next node                              | Ethernet, WIFI, ARP       |
+| Link        | delivers datagram to next node                              | Ethernet, WIFI, [[ARP]]   |
 | Physical    | transport individual bits                                   | Copper wire, fiber optics |
 
 Each layer below the application layer can be thought as an abstract data transfer channel

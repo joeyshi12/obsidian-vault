@@ -7,7 +7,6 @@ Internet
 - Complexity is in devices
 - Dawn of the stupid network = Internet
 
-
 ## End to end argument
 If you're not able to completely implement a service correctly, then just leave it to the ends.
 Smart end-stations

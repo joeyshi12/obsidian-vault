@@ -1,10 +1,9 @@
 # The Internet Challenge
-To communicate at large and small scale:
-- across networks over different media
-- across applications
-- across a wide geographical area
-
-While providing dependable performance
+- To communicate at large and small scale:
+    - across networks over different media
+    - across applications
+    - across a wide geographical area
+- All while providing dependable performance
 
 ## Detailed List
 - Communication

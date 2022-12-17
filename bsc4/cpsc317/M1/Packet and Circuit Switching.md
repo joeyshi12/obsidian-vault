@@ -1,3 +1,11 @@
+---
+course: CPSC317
+title: Packet and Circuit Switching
+tags:
+module: 1
+date: [[2022-12-16]]
+---
+
 ## Packet-switching
 - Divide the data into packets to send
 - **Independently** route packets from source to destination
