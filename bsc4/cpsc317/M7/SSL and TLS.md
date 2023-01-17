@@ -20,7 +20,7 @@ date: [[2022-12-05]]
     - $M_s$ MAC for data from server to client
     - Note: using the same key for more than one cryptographic operation is considered bad practice, so that's why we have keys for both directions
 
-![[Pasted image 20221205133339.png|500]]
+![[Pasted image 20221205133339.png|600]]
 
 ## Key exchange
 - IKE: Internet key exchange

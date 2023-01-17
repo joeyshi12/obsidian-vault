@@ -5,6 +5,3 @@
 	- position, normal, and uv
 - Some uniforms
 	- modelView matrix and cameraPosition
-
-
-    

@@ -1,7 +1,6 @@
 ---
 course: CPSC317
 title: M7 Learning Goals
-topic: Learning Goals
 tags: Learning Goals
 module: 7
 date: [[2022-11-23]]

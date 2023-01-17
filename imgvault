@@ -32,7 +32,6 @@ class ImgurImage:
     name: str
     width: int
     height: int
-    size: int
     link: str
 
 def generate_token():
@@ -65,7 +64,7 @@ def list_images():
         sys.exit(2)
     for image in images:
         dimensions = f"{image.width}x{image.height}"
-        print(f"{image.link:<36}{image.size:<12}{dimensions:<12}{image.name}")
+        print(f"{image.link:<34}{dimensions:<12}{image.name}")
 
 def sync_images():
     token = _read_token()
@@ -173,7 +172,6 @@ def _parse_images(response: requests.Response) -> Optional[List[ImgurImage]]:
                    image.get("title"),
                    image.get("width"),
                    image.get("height"),
-                   image.get("size"),
                    image.get("link"))
         for image in images
     ]
