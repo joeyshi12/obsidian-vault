@@ -1,0 +1,1 @@
+Midterm is completely on HW 1-5!!

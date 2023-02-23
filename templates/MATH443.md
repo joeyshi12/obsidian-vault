@@ -1,6 +1,6 @@
 ---
 course: MATH443
 title: <% tp.file.title %>
-tags: []
+tags:
 date: [[<% tp.date.now() %>]]
 ---

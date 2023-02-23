@@ -1,0 +1,22 @@
+## Example: Find good movies
+- Identify good movies in genres I like
+- Domain:
+    - General population, movie enthusiasts
+- Task: what is a good movie for me?
+    - Highly rated by critics?
+    - Highly rated by audiences?
+    - Successful at the box office?
+    - Similar to movies I liked?
+
+- Data: combine audience ratings and critic ratings
+- Task: Find high-scoring movies for specific genre
+- abstractions?
+    - attribute: audence & critic ratings
+        - ordinal
+            - Levels: 3, 5, 10
+    - attribute: genre
+        - categorical
+            - levels: < 20
+    -  items: movies
+        - items: millions
+    - task: find high values
