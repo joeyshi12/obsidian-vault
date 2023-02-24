@@ -15,6 +15,7 @@ if not client_id:
 client_secret = os.environ.get("CLIENT_SECRET")
 if not client_secret:
     print("CLIENT_SECRET not loaded")
+    sys.exit(2)
 
 api_url = "https://api.imgur.com/3"
 authorize_url = "https://api.imgur.com/oauth2/authorize"
@@ -25,6 +26,7 @@ timeout_seconds = 10
 attachments_dir = "attachments"
 token_file = ".token"
 album_hash = "NG0VtL9"
+image_types = ["png", "jpg"]
 
 @dataclass
 class ImgurImage:
@@ -59,28 +61,18 @@ def generate_token():
 
 def list_images():
     images = _fetch_images()
-    if images is None:
-        print(f"Failed to fetch images from album {album_hash}")
-        sys.exit(2)
     for image in images:
         dimensions = f"{image.width}x{image.height}"
         print(f"{image.link:<34}{dimensions:<12}{image.name}")
 
 def sync_images():
     token = _read_token()
-    if not token:
-        print(f"Please first generate {token_file} with genToken")
-        sys.exit(2)
     files = os.listdir(attachments_dir)
     uploaded_images = _fetch_images()
-    if uploaded_images is None:
-        print(f"Failed to fetch images from album {album_hash}")
-        sys.exit(2)
-
     uploaded_image_names = set(image.name for image in uploaded_images if image.name)
     print("Uploading new images...")
     for filename in files:
-        if filename.split(".")[-1] == "md": # TODO: ignore excalidraw file hack
+        if filename.split(".")[-1] not in image_types:
             continue
         if filename in uploaded_image_names:
             continue
@@ -100,15 +92,7 @@ def sync_images():
 
 def delete_unused_images():
     token = _read_token()
-    if not token:
-        print(f"Please first generate {token_file} with genToken")
-        sys.exit(2)
-    files = set(os.listdir(attachments_dir))
     uploaded_images = _fetch_images()
-    if uploaded_images is None:
-        print(f"Failed to fetch images from album {album_hash}")
-        sys.exit(2)
-
     image_counts = {}
     for image in uploaded_images:
         if image.name is None:
@@ -118,8 +102,9 @@ def delete_unused_images():
         else:
             image_counts[image.name] += 1
 
+    attachment_names = set(os.listdir(attachments_dir))
     for image in uploaded_images:
-        if image.name is None or image.name not in files or image_counts.get(image.name, 0) > 1:
+        if image.name is None or image.name not in attachment_names or image_counts.get(image.name, 0) > 1:
             _delete_image(image, token)
             image_counts[image.name] -= 1
 
@@ -127,11 +112,16 @@ def _fetch_images() -> Optional[List[ImgurImage]]:
     response = requests.get(
         f"{api_url}/album/{album_hash}",
         headers={"Authorization": f"Client-ID {client_id}"},
-        timeout=timeout_seconds)
+        timeout=timeout_seconds
+    )
     if response.status_code != 200:
-        print(f"failed to request images from album {album_hash}")
+        print(f"Failed to request images from album {album_hash}")
         sys.exit(2)
-    return _parse_images(response)
+    images = _parse_images(response)
+    if images is None:
+        print(f"Failed to fetch images from album {album_hash}")
+        sys.exit(2)
+    return images
 
 def _upload_image(filename: str, token: str) -> requests.Response:
     image_path = os.path.join(attachments_dir, filename)
@@ -176,31 +166,34 @@ def _parse_images(response: requests.Response) -> Optional[List[ImgurImage]]:
         for image in images
     ]
 
-def _read_token() -> Optional[str]:
+def _read_token() -> str:
     if not os.path.exists(token_file):
-        return None
+        print(f"Please first generate {token_file} with genToken")
+        sys.exit(2)
     with open(token_file, "r", encoding="utf-8") as f:
         return f.read()
 
 def print_usage():
     print(f"usage: {sys.argv[0]} (genToken|list|sync|clean)")
 
+def execute(command: str):
+    if command == "genToken":
+        generate_token()
+    elif command == "list":
+        list_images()
+    elif command == "sync":
+        sync_images()
+    elif command == "clean":
+        delete_unused_images()
+    else:
+        print_usage()
+
 def main():
     if len(sys.argv) != 2:
         print_usage()
         sys.exit(1)
-    command = sys.argv[1]
     try:
-        if command == "genToken":
-            generate_token()
-        elif command == "list":
-            list_images()
-        elif command == "sync":
-            sync_images()
-        elif command == "clean":
-            delete_unused_images()
-        else:
-            print_usage()
+        execute(sys.argv[1])
         sys.exit(0)
     except KeyboardInterrupt:
         sys.exit(2)
