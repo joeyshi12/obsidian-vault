@@ -24,7 +24,7 @@ timeout_seconds = 10
 # User configuration
 attachments_dir = "attachments"
 token_file = ".token"
-album_hash = "Yy4p6oX"
+album_hash = "NG0VtL9"
 
 @dataclass
 class ImgurImage:
