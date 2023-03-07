@@ -1,0 +1,1 @@
+Trail in a graph $G$ using every edge of $G$, not closed.
