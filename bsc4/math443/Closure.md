@@ -1,3 +1,4 @@
+## Definition
 The **closure** $C(G)$ of a graph $G$
 is the graph obtained from $G$ by iteratively adding edges between nonadjacent vertices
 whose degrees sum to at least $|G|$, until no such pair remains.
