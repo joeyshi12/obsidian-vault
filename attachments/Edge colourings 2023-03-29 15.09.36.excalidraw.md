@@ -1,0 +1,178 @@
+---
+
+excalidraw-plugin: parsed
+tags: [excalidraw]
+
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+
+
+# Text Elements
+%%
+# Drawing
+```json
+{
+	"type": "excalidraw",
+	"version": 2,
+	"source": "https://excalidraw.com",
+	"elements": [
+		{
+			"id": "37kHJ6nuaCnmADODwGwqm",
+			"type": "ellipse",
+			"x": -28.25,
+			"y": -252.6328125,
+			"width": 9.93359375,
+			"height": 11.0546875,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#000",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 274830255,
+			"version": 364,
+			"versionNonce": 1503477217,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1678141104555,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "N0dFOR2ot-s4pPuxTmtTz",
+			"type": "ellipse",
+			"x": -260.125,
+			"y": -188.5703125,
+			"width": 0.12109375,
+			"height": 0.12109375,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 340369377,
+			"version": 4,
+			"versionNonce": 138857647,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1678141104555,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "YjpCHtdIg4ZIvOzwYMCkh",
+			"type": "ellipse",
+			"x": -79.05859375,
+			"y": -236.7265625,
+			"width": 210.74609375,
+			"height": 193.2578125,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 1472214415,
+			"version": 15,
+			"versionNonce": 1377203855,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1678141104298,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "jBAZbe3Uqt86Jj5jDv_5v",
+			"type": "ellipse",
+			"x": 0.25390625,
+			"y": -113.70703125,
+			"width": 29.03515625,
+			"height": 29.03515625,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 501012929,
+			"version": 147,
+			"versionNonce": 1337234927,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1678141114388,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "riL-xUHeDF8zXdmw9bN5K",
+			"type": "diamond",
+			"x": -110.13671875,
+			"y": -246.5703125,
+			"width": 222.6875,
+			"height": 249.83984375,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "#000",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 603669633,
+			"version": 15,
+			"versionNonce": 559707887,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1678141122723,
+			"link": null,
+			"locked": false
+		}
+	],
+	"appState": {
+		"theme": "dark",
+		"viewBackgroundColor": "#ffffff",
+		"currentItemStrokeColor": "#000000",
+		"currentItemBackgroundColor": "#000",
+		"currentItemFillStyle": "solid",
+		"currentItemStrokeWidth": 0.5,
+		"currentItemStrokeStyle": "solid",
+		"currentItemRoughness": 0,
+		"currentItemOpacity": 100,
+		"currentItemFontFamily": 3,
+		"currentItemFontSize": 16,
+		"currentItemTextAlign": "left",
+		"currentItemStrokeSharpness": "sharp",
+		"currentItemStartArrowhead": null,
+		"currentItemEndArrowhead": "arrow",
+		"scrollX": 579.75,
+		"scrollY": 400.390625,
+		"zoom": {
+			"value": 1
+		},
+		"currentItemLinearStrokeSharpness": "round",
+		"gridSize": null,
+		"colorPalette": {}
+	},
+	"files": {}
+}
+```
+%%
