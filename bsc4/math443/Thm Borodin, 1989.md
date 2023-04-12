@@ -40,7 +40,7 @@ If $a = 3$:
 $0 < \mu^*(v) = (-3) + 3 + (1/2)(\text{\# other donor neighbours})$
 So, $v$ has 4 donor neighbours, 3 of them deg 3.
 
-If $a\geq 3$, then $a = $, so $v$ has 4 ddonor neighbours all deg 3.
+If $a\geq 3$, then $a = (\text{missed this})$, so $v$ has 4 donor neighbours all deg 3.
 
 ![[Thm Borodin, 1989 2023-03-22 15.19.10.excalidraw]]
 

@@ -4,6 +4,7 @@
 
 Since $\gcd(e, \phi(n)) = 1$, there exists a solution $d$ of $ed = 1\pmod{\phi(n)}$
 
+By Euler's theorem $a^{\phi(n)} \equiv 1 \pmod{n}$
 Thus, $c^d = (m^e)^d = m^{k\phi(n) + 1} \equiv m\pmod{n}$ for some $k\in\mathbb{Z}$
 
 Hence, $m \equiv c^d\pmod{n}$
