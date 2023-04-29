@@ -1,4 +1,5 @@
 ## Heap
+
 A min-heap is a complete binary tree, where each node is smaller than its children. Thus, the root is the minimum element of the tree.
 
 ## Operations

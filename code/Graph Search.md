@@ -1,7 +1,9 @@
 # Graph Search
+
 ![[Pasted image 20220426143927.png]]
 
 ## Depth-First Search (DFS)
+
 ```python
 def search(root):
     if not root:
@@ -15,6 +17,7 @@ def search(root):
 ```
 
 ## Breadth-First Search (BFS)
+
 ```python
 from collections import deque
 
@@ -33,6 +36,7 @@ def search(root):
 ```
 
 ## Bidirectional Search
+
 Used to find the shortest path between source and destination node by running 2 simultaneous BFS from each node.
 
 ![[Pasted image 20220426145628.png]]

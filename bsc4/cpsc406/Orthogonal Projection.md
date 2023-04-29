@@ -8,7 +8,7 @@ date: [[2023-01-12]]
 ![[Orthogonal Projection 2023-01-12 11.29.28.excalidraw]]
 
 $\overline{y} = \text{proj}_{\mathcal{L}}(b) = \arg\min \{\|y - b\| \mid y\in{\mathcal{L}}\}$
-$\overline{r} = \text{prof}_{\mathcal{L}_{ortho}}(b) = \arg\min \{\|r - b\| \mid r\in{\mathcal{L}_{ortho}}\}$
+$\overline{r} = \text{proj}_{\mathcal{L}_{ortho}}(b) = \arg\min \{\|r - b\| \mid r\in{\mathcal{L}_{ortho}}\}$
 
 Orthogonal projection: $b = \overline{y} + \overline{r}$,  $\overline{y}^T\overline{r} = 0$
 

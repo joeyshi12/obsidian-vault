@@ -17,6 +17,3 @@ Every node in a full binary tree has either 0 or 2 children. i.e., no nodes have
 A perfect binary tree is full and complete.
 
 ![[Pasted image 20220426140223.png]]
-
-## Heap
-- [[Heap]]

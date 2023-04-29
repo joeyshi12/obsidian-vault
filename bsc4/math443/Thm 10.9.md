@@ -1,5 +1,5 @@
 # Theorem 10.9
-$\chi(G) \leq 1 + \max\{\delta(G) : H \leq G\}$
+$\chi(G) \leq 1 + \max\{\delta(H) : H \leq G\}$
 
 ## Proof
 Let $G$ be an $n$ vertex graph.
