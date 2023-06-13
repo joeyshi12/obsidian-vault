@@ -23,7 +23,7 @@ date: [[2023-01-24]]
     - Interlocking areas: 2 constraints on size (length/width), cannot size or shape code
         - Interlocking: size, shape, position
  
-j![[Pasted image 20230124141938.png|800]]
+![[Pasted image 20230124141938.png|800]]
 
 ## Exercises
 - [[c4-2]]

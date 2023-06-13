@@ -1,6 +1,6 @@
 ## In-order
-Visit left branch, then current node, then right branch
 
+Visit left branch, then current node, then right branch
 ```python
 def in_order(node):
     if node:
@@ -10,8 +10,8 @@ def in_order(node):
 ```
 
 ## Pre-order
-Visit current node before its child nodes
 
+Visit current node before its child nodes
 ```python
 def pre_order(node):
     if node:
@@ -21,8 +21,8 @@ def pre_order(node):
 ```
 
 ## Post-order
-Visit child nodes before the current node
 
+Visit child nodes before the current node
 ```python
 def post_order(node):
     if node:

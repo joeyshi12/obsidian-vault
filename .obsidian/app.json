@@ -21,5 +21,8 @@
   "attachmentFolderPath": "attachments",
   "autoPairBrackets": false,
   "communityPluginSortOrder": "download",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "smartIndentList": false,
+  "showIndentGuide": true,
+  "foldIndent": true
 }

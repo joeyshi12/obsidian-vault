@@ -1,4 +1,5 @@
 ## Adjacency List
+
 Every vertex stores a list of adjacent vertices. In an undirected graph, an edge $(u, v)$ would be stored twice: once in vertex $u$ and again in vertex $v$.
 
 An array or hash table of lists can store the adjacency list:
@@ -22,6 +23,7 @@ class Node:
 ```
 
 ## Adjacency Matrix
+
 An adjacency matrix is an $N\times N$ boolean matrix, where $N$ is the number of nodes and a `true` value at $M_{ij}$ indicates an edge from $i$ to $j$. 
 
 In an undirected graph, the adjacency matrix will be symmetric.

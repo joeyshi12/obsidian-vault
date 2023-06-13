@@ -3,13 +3,11 @@ course: "cpsc320"
 topics: ["DP"]
 ---
 
-
-# Longest Common Subsequence
 The longest common subsequence of 2 strings $A$, $B$ is the longest string whose letters appear in order (not necessarily consequtive) within both A and B.
 For example, the $LCS$ of "computer science" and "mathematics" is "mteic".
 
-
 ## Test Cases
+
 ```python
 # Trivial
 LCS("", "") == ""
@@ -23,8 +21,8 @@ LCS("abcd", "bcde") == "bcd"
 LCS("abcd", "bde") == "bd"
 ```
 
-
 ## Length of LCS
+
 Let $LLCS$ be the length of the longest common subsequence between $A$ and $B$.
 Consider the strings "tycoon" and "country". Removing the last letter of "country" does not change the $LLCS$ of the 2 strings.
 If removing "y" from country did affect the $LLCS$, then "y" must belong to the LCS, which is only possible if $LCS$ = "y".
@@ -38,6 +36,7 @@ Consider "compute" and "science".
 $LLCS(\text{``compute"}, \text{``science"}) = 1 + LLCS(\text{``comput"}, \text{``scienc"})$ since "e" is the last character in both strings.
 
 **General Recurrance Relation**
+
 $$
 LLCS(A[1..n], B[1..m]) = \begin{cases}
 0 & n = 0 \text{ or } m = 0 \\
@@ -84,8 +83,8 @@ def __LLCS(A: str, B: str, i: int, j: int, cache: List[List[int]]) -> int:
    -------+---+---+----+-----+------+-------+--------+---------+
 ```
 
-
 ## LCS Algorithm
+
 1. Start from index $(n, m)$
 2. Traverse the table and construct the $LCS$
     - Move to $(n - 1, m - 1)$ if $A[i] = B[j]$ and include the character in the final solution
@@ -119,8 +118,8 @@ def LCS(A: str, B: str) -> str:
 - Time-complexity: $O(nm)$
 - Space-complexity: $O(nm)$
 
-
 ## DP Approach to LLCS
+
 ```python
 def LLCS(A: str, B: str) -> int:
     cache = [[0] * (len(B) + 1) for _ in range(len(A) + 1)]
