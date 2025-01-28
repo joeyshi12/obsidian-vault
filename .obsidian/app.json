@@ -24,5 +24,6 @@
   "showInlineTitle": false,
   "smartIndentList": false,
   "showIndentGuide": true,
-  "foldIndent": true
+  "foldIndent": true,
+  "propertiesInDocument": "visible"
 }

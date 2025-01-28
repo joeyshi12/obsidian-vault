@@ -1,6 +1,7 @@
 ---
-course: "cpsc320"
-topics: ["DP"]
+course: cpsc320
+tags:
+  - DP
 ---
 
 The longest common subsequence of 2 strings $A$, $B$ is the longest string whose letters appear in order (not necessarily consequtive) within both A and B.
